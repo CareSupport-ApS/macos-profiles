@@ -5,66 +5,6 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>AllowUserOverrides</key>
-			<true/>
-			<key>AllowedSystemExtensions</key>
-			<dict>
-				<key>UBF8T346G9</key>
-				<array>
-					<string>com.microsoft.wdav.epsext</string>
-					<string>com.microsoft.wdav.netext</string>
-				</array>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures System Extensions Policy</string>
-			<key>PayloadDisplayName</key>
-			<string>System Extensions</string>
-			<key>PayloadIdentifier</key>
-			<string>43E47E66-A291-4D93-A1DC-4B2912E23C79</string>
-			<key>PayloadOrganization</key>
-			<string>Fremantle</string>
-			<key>PayloadType</key>
-			<string>com.apple.system-extension-policy</string>
-			<key>PayloadUUID</key>
-			<string>43E47E66-A291-4D93-A1DC-4B2912E23C79</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>FilterDataProviderBundleIdentifier</key>
-			<string>com.microsoft.wdav.netext</string>
-			<key>FilterDataProviderDesignatedRequirement</key>
-			<string>identifier "com.microsoft.wdav.netext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-			<key>FilterGrade</key>
-			<string>inspector</string>
-			<key>FilterPackets</key>
-			<false/>
-			<key>FilterSockets</key>
-			<true/>
-			<key>FilterType</key>
-			<string>Plugin</string>
-			<key>PayloadDescription</key>
-			<string>Adds a Web Content Filter</string>
-			<key>PayloadDisplayName</key>
-			<string>Web Content Filter Payload</string>
-			<key>PayloadIdentifier</key>
-			<string>78F09620-3833-4638-951F-5A346EC6A0D2</string>
-			<key>PayloadOrganization</key>
-			<string>JAMF Software</string>
-			<key>PayloadType</key>
-			<string>com.apple.webcontent-filter</string>
-			<key>PayloadUUID</key>
-			<string>78F09620-3833-4638-951F-5A346EC6A0D2</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>PluginBundleID</key>
-			<string>com.microsoft.wdav</string>
-			<key>UserDefinedName</key>
-			<string>Microsoft Defender Content Filter</string>
-			<key>VendorConfig</key>
-			<dict/>
-		</dict>
-		<dict>
 			<key>PayloadDescription</key>
 			<string>Configures Privacy Preferences Policy Control settings</string>
 			<key>PayloadDisplayName</key>
@@ -113,6 +53,32 @@
 					</dict>
 				</array>
 			</dict>
+		</dict>
+		<dict>
+			<key>AllowUserOverrides</key>
+			<true/>
+			<key>AllowedSystemExtensions</key>
+			<dict>
+				<key>UBF8T346G9</key>
+				<array>
+					<string>com.microsoft.wdav.epsext</string>
+					<string>com.microsoft.wdav.netext</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures System Extensions Policy</string>
+			<key>PayloadDisplayName</key>
+			<string>System Extensions</string>
+			<key>PayloadIdentifier</key>
+			<string>43E47E66-A291-4D93-A1DC-4B2912E23C79</string>
+			<key>PayloadOrganization</key>
+			<string>Fremantle</string>
+			<key>PayloadType</key>
+			<string>com.apple.system-extension-policy</string>
+			<key>PayloadUUID</key>
+			<string>43E47E66-A291-4D93-A1DC-4B2912E23C79</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>PayloadDescription</key>
@@ -171,7 +137,7 @@
 			<key>tamperProtection</key>
 			<dict>
 				<key>enforcementLevel</key>
-				<string>audit</string>
+				<string>block</string>
 			</dict>
 			<key>userInterface</key>
 			<dict>
@@ -180,6 +146,40 @@
 				<key>userInitiatedFeedback</key>
 				<string>disabled</string>
 			</dict>
+		</dict>
+		<dict>
+			<key>FilterDataProviderBundleIdentifier</key>
+			<string>com.microsoft.wdav.netext</string>
+			<key>FilterDataProviderDesignatedRequirement</key>
+			<string>identifier "com.microsoft.wdav.netext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+			<key>FilterGrade</key>
+			<string>inspector</string>
+			<key>FilterPackets</key>
+			<false/>
+			<key>FilterSockets</key>
+			<true/>
+			<key>FilterType</key>
+			<string>Plugin</string>
+			<key>PayloadDescription</key>
+			<string>Adds a Web Content Filter</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Content Filter Payload</string>
+			<key>PayloadIdentifier</key>
+			<string>78F09620-3833-4638-951F-5A346EC6A0D2</string>
+			<key>PayloadOrganization</key>
+			<string>JAMF Software</string>
+			<key>PayloadType</key>
+			<string>com.apple.webcontent-filter</string>
+			<key>PayloadUUID</key>
+			<string>78F09620-3833-4638-951F-5A346EC6A0D2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PluginBundleID</key>
+			<string>com.microsoft.wdav</string>
+			<key>UserDefinedName</key>
+			<string>Microsoft Defender Content Filter</string>
+			<key>VendorConfig</key>
+			<dict/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
