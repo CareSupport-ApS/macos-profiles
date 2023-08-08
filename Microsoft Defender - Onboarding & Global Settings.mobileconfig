@@ -72,7 +72,7 @@
 			<key>PayloadIdentifier</key>
 			<string>43E47E66-A291-4D93-A1DC-4B2912E23C79</string>
 			<key>PayloadOrganization</key>
-			<string>Fremantle</string>
+			<string>CareSupport</string>
 			<key>PayloadType</key>
 			<string>com.apple.system-extension-policy</string>
 			<key>PayloadUUID</key>
@@ -167,7 +167,7 @@
 			<key>PayloadIdentifier</key>
 			<string>78F09620-3833-4638-951F-5A346EC6A0D2</string>
 			<key>PayloadOrganization</key>
-			<string>JAMF Software</string>
+			<string></string>
 			<key>PayloadType</key>
 			<string>com.apple.webcontent-filter</string>
 			<key>PayloadUUID</key>
