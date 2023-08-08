@@ -181,6 +181,35 @@
 			<key>VendorConfig</key>
 			<dict/>
 		</dict>
+		<dict>
+			<key>AllowUserOverrides</key>
+			<false/>
+			<key>AllowedKernelExtensions</key>
+			<dict>
+				<key>AllowNonAdminUserApprovals</key>
+				<false/>
+				<key>AllowUserOverrides</key>
+				<false/>
+				<key>AllowedTeamIdentifiers</key>
+				<array>
+					<string>UBF8T346G9</string>
+				</array>
+			</dict>
+			<key>AllowedTeamIdentifiers</key>
+			<array>
+				<string>UBF8T346G9</string>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Approved Kernel Extensions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.syspolicy.kernel-extension-policy.0DF28178-5BF7-4B6B-8A6A-55B84BBD0AD0</string>
+			<key>PayloadType</key>
+			<string>com.apple.syspolicy.kernel-extension-policy</string>
+			<key>PayloadUUID</key>
+			<string>0DF28178-5BF7-4B6B-8A6A-55B84BBD0AD0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>Default CareSupport MS Defender profile which includes: PPPC, Network Extension, System Extension, Notifications and Onboarding for Microsoft Defender</string>
@@ -195,7 +224,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>EEFD0CE8-8E2D-420F-9ACE-448E3F8FD42B</string>
+	<string>674B9F49-5189-41DD-BB7B-536E91E654D6</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
