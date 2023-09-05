@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>BookmarkBarEnabled</key>
+			<true/>
+			<key>ManagedBookmarks</key>
+<array>
+	<dict>
+		<key>name</key>
+		<string>IT Guides</string>
+		<key>url</key>
+		<string>{{customer_support_link}}</string>
+	</dict>
+</array>
+			<key>NewTabPageLocation</key>
+			<string>https://google.dk</string>
+			<key>PayloadDisplayName</key>
+			<string>Google Chrome</string>
+			<key>PayloadIdentifier</key>
+			<string>com.google.Chrome.30E4C7FF-27DE-4C53-B566-6EB8D73D771D</string>
+			<key>PayloadType</key>
+			<string>com.google.Chrome</string>
+			<key>PayloadUUID</key>
+			<string>E9BA7475-1651-42E3-9764-25BBBDB6C018</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>KB</string>
+	<key>PayloadIdentifier</key>
+	<string>Caresupport</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F6AF608A-F30B-437F-9E6D-563D672B1989</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
