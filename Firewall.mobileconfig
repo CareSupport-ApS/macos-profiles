@@ -26,11 +26,11 @@
 	<key>PayloadDescription</key>
 	<string>Purpose is to setup firewall </string>
 	<key>PayloadDisplayName</key>
-	<string>Firewall-Motor</string>
+	<string>Firewall</string>
 	<key>PayloadIdentifier</key>
 	<string>Caresupport</string>
 	<key>PayloadOrganization</key>
-	<string>Motor Productions</string>
+	<string>CareSupport</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
