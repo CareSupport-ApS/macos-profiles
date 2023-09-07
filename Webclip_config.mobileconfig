@@ -1930,7 +1930,7 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>URL</key>
-			<string>{{webclip_link}}</string>
+			<string>{{customer_support_link}}</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
