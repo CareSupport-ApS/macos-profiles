@@ -62,7 +62,7 @@
 						<key>mainContentSubHeader</key>
 						<string>Opdateringer kan tage op til 30 minutter at færdiggøre</string>
 						<key>mainContentText</key>
-						<string>Opdatering af din MacBook til det nyeste styresystem er vigtigt primært af sikkerhedsmæssige årsager.\n\nÆldre styresystemer kan være sårbare over for kendte sikkerhedstrusler og sårbarheder, der ikke længere understøttes eller opdateres af producenten.\n\nVed at opdatere til den nyeste version sikrer du, at din MacBook er beskyttet mod potentielle angreb og malware, da producenterne løbende frigiver opdateringer for at lappe sikkerhedshuller.\n\nDette er afgørende for at bevare dine data og personlige oplysninger i sikkerhed og minimere risikoen for cyberangreb.\n\nTryk på opdater enhed for at starte opdateringen nu.</string>
+						<string>Opdatering af din MacBook til det nyeste styresystem er vigtigt primært af sikkerhedsmæssige årsager.\n\nÆldre styresystemer kan være sårbare over for kendte sikkerhedstrusler og sårbarheder, der ikke længere understøttes eller opdateres af producenten.\n\nVed at opdatere til den nyeste version sikrer du, at din MacBook er beskyttet mod potentielle angreb og malware\n\nDette er afgørende for at bevare dine data og personlige oplysninger i sikkerhed og minimere risikoen for cyberangreb.\n\nTryk på opdater enhed for at starte opdateringen nu.</string>
 						<key>mainHeader</key>
 						<string>Din enhed har behov for en sikkershedsopdatering</string>
 						<key>oneDayDeferralButtonText</key>
