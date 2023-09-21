@@ -56,7 +56,7 @@
 						<key>informationButtonText</key>
 						<string>Vidensbasen</string>
 						<key>mainContentHeader</key>
-						<string>Din enhed vil genstarte under denne opdatering, sørg da for at al dit arbejde er gemt for ikke potentielt at miste data.</string>
+						<string>Din enhed vil genstarte under denne opdatering.</string>
 						<key>mainContentNote</key>
 						<string>Vigtige noter</string>
 						<key>mainContentSubHeader</key>
