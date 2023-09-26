@@ -15,6 +15,11 @@
 			<string>E315BA0D-1775-4BCC-B283-7BB957BDA59E</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+	                <key>userExperience</key>
+			<dict>
+				<key>allowedDeferrals</key>
+				<integer>30</integer>
+			</dict>
 			<key>osVersionRequirements</key>
 			<array>
 				<dict>
@@ -74,7 +79,7 @@
 						<key>secondaryQuitButtonText</key>
 						<string>Jeg accepterer</string>
 						<key>subHeader</key>
-						<string>Kære Motor medarbejder, dette er en venlig påmindelse fra CareSupport</string>
+						<string>Kære medarbejder, dette er en venlig påmindelse fra CareSupport</string>
 					</dict>
 				</array>
 			</dict>
