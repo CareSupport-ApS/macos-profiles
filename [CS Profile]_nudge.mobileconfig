@@ -59,7 +59,7 @@
 						<key>customDeferralDropdownText</key>
 						<string>Udskyd</string>
 						<key>informationButtonText</key>
-						<string>Vidensbasen</string>
+						<string>Få hjælp</string>
 						<key>mainContentHeader</key>
 						<string>Din enhed vil genstarte under denne opdatering.</string>
 						<key>mainContentNote</key>
