@@ -26,7 +26,7 @@
 					<key>aboutUpdateURL</key>
 					<string>{{customer_support_link}}</string>
 					<key>requiredInstallationDate</key>
-					<date>2023-11-01T17:00:00Z</date>
+					{{required_update_date}}
 					<key>requiredMinimumOSVersion</key>
 					<string>{{os_version}}</string>
 					<key>targetedOSVersions</key>
@@ -65,9 +65,9 @@
 						<key>mainContentNote</key>
 						<string>Vigtige noter</string>
 						<key>mainContentSubHeader</key>
-						<string>Opdateringen kan tage op til 30 minutter at færdiggøre</string>
+						<string>Opdateringen kan tage op til 60 minutter at færdiggøre</string>
 						<key>mainContentText</key>
-						<string>På vegne af {{customer_support_name}} vil vi gerne informere dig om ny systemopdatering til din computer.\n\nOpdateringen af din MacBook til det nyeste styresystem er vigtigt primært af sikkerhedsmæssige årsager.\n\nÆldre styresystemer kan være sårbare over for kendte sikkerhedstrusler og sårbarheder.\n\nVed at opdatere til den nyeste version sikrer du, at din MacBook er beskyttet mod potentielle angreb og malware\n\nDette er afgørende for at bevare dine data og personlige oplysninger i sikkerhed og minimere risikoen for cyberangreb.\n\nTryk på opdater enhed for at starte opdateringen nu.</string>
+						<string>På vegne af {{customer_support_name}} vil vi informere dig om at en ny systemopdatering er tilgængelig til din computer.\nOpdatering af din computer til det nyeste styresystem er vigtigt især grundet sikkerhedsmæssige årsager.\n\nÆldre styresystemer kan være sårbare og ved at opdatere til den nyeste version sikrer du, at din computer er beskyttet mod potentielle angreb og malware\n\nDette er afgørende for at bevare dine data og personlige oplysninger i sikkerhed, samt minimere risikoen for cyberangreb.\n\nTryk på opdater enhed for at starte opdateringen nu.</string>
 						<key>mainHeader</key>
 						<string>Din enhed har behov for en opdatering af styresystemet</string>
 						<key>oneDayDeferralButtonText</key>
@@ -79,7 +79,7 @@
 						<key>secondaryQuitButtonText</key>
 						<string>Jeg accepterer</string>
 						<key>subHeader</key>
-						<string>Kære medarbejder, dette er en venlig påmindelse fra CareSupport</string>
+						<string>Kære medarbejder, dette er en venlig påmindelse fra CareSupport ApS</string>
 					</dict>
 				</array>
 			</dict>
