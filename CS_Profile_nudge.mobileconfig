@@ -79,7 +79,8 @@
 						<key>secondaryQuitButtonText</key>
 						<string>Jeg accepterer</string>
 						<key>subHeader</key>
-						<string>Kære medarbejder, dette er en venlig påmindelse fra CareSupport ApS</string>
+						<string>Din IT afdeling kræver at du opdatere din computer til et nyere styresystem så hurtigt som muligt.
+						</string>
 					</dict>
 				</array>
 			</dict>
