@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AcknowledgedDataCollectionPolicy</key>
+			<string>RequiredDataOnly</string>
+			<key>Applications</key>
+			<dict>
+				<key>/Applications/Company Portal.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>IMCP01</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft Defender ATP.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>WDAV00</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft Excel.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>XCEL2019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft OneNote.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>ONMC2019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft Outlook.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>OPIM2019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft PowerPoint.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>PPT32019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft Teams.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>TEAMS10</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft Word.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSWD2019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/OneDrive.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>ONDR18</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSau04</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+			</dict>
+			<key>ChannelName</key>
+			<string>Current</string>
+			<key>DisableInsiderCheckbox</key>
+			<true/>
+			<key>EnableCheckForUpdatesButton</key>
+			<true/>
+			<key>HowToCheck</key>
+			<string>AutomaticCheck</string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft AutoUpdate</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.206002FD-7151-4F50-9973-6D53ADFFC703.com.microsoft.autoupdate2.A2F3F347-6B26-4F29-8DF8-1DBB3A6BFDE3</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.autoupdate2</string>
+			<key>PayloadUUID</key>
+			<string>A2F3F347-6B26-4F29-8DF8-1DBB3A6BFDE3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>StartDaemonOnAppLaunch</key>
+			<true/>
+			<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+			<integer>14</integer>
+			<key>UpdateDeadline.FinalCountDown</key>
+			<integer>120</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft AutoUpdate Configuation</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikberglund.ProfileCreator.206002FD-7151-4F50-9973-6D53ADFFC703</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>206002FD-7151-4F50-9973-6D53ADFFC703</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
