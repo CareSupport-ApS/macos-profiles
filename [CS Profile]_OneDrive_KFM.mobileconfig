@@ -179,6 +179,41 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Login Items</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.loginitems.managed.78C42E44-803C-4F21-BF63-B6ACF6ABAFB0</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginitems.managed</string>
+			<key>PayloadUUID</key>
+			<string>78C42E44-803C-4F21-BF63-B6ACF6ABAFB0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Service Management - Managed Login Items</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.servicemanagement.F66E354D-502D-4225-B78D-9BEEB79C547C</string>
+			<key>PayloadType</key>
+			<string>com.apple.servicemanagement</string>
+			<key>PayloadUUID</key>
+			<string>F66E354D-502D-4225-B78D-9BEEB79C547C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Rules</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>Microsoft</string>
+					<key>RuleType</key>
+					<string>TeamIdentifier</string>
+					<key>RuleValue</key>
+					<string>UBF8T346G9</string>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>https://github.com/CareSupport-ApS/macos-profiles/blob/main/%5BCS%20Profile%5D_OneDrive_KFM.mobileconfig</string>
@@ -193,7 +228,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>589CA574-5244-4B67-B3B0-76717D65491C</string>
+	<string>36D49821-158C-4D0C-9765-C6F804B540FC</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
