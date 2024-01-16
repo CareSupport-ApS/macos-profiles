@@ -1,103 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>PayloadContent</key>
-		<array>
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowPreReleaseInstallation</key>
+			<false/>
+			<key>AutomaticallyInstallMacOSUpdates</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Software Update</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.SoftwareUpdate.9459E332-B08B-4440-A03B-A54FE5BBE79E</string>
+			<key>PayloadType</key>
+			<string>com.apple.SoftwareUpdate</string>
+			<key>PayloadUUID</key>
+			<string>9459E332-B08B-4440-A03B-A54FE5BBE79E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Nudge</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.macadmins.Nudge.8BBC1027-75E2-4A8D-877E-C92A850A3268</string>
+			<key>PayloadType</key>
+			<string>com.github.macadmins.Nudge</string>
+			<key>PayloadUUID</key>
+			<string>8BBC1027-75E2-4A8D-877E-C92A850A3268</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>optionalFeatures</key>
 			<dict>
-				<key>PayloadDisplayName</key>
-				<string>Nudge</string>
-				<key>PayloadIdentifier</key>
-				<string>com.github.macadmins.Nudge.306B666C-0991-41F8-962F-07BED14E763D</string>
-				<key>PayloadType</key>
-				<string>com.github.macadmins.Nudge</string>
-				<key>PayloadUUID</key>
-				<string>E315BA0D-1775-4BCC-B283-7BB957BDA59E</string>
-				<key>PayloadVersion</key>
-				<integer>1</integer>
-				<key>userExperience</key>
+				<key>aggressiveUserExperience</key>
+				<false/>
+				<key>aggressiveUserFullScreenExperience</key>
+				<false/>
+			</dict>
+			<key>osVersionRequirements</key>
+			<array>
 				<dict>
-					<key>allowedDeferrals</key>
-					<integer>15</integer>
+					<key>aboutUpdateURL</key>
+					<string>{{customer_support_link}}</string>
+					<key>majorUpgradeAppPath</key>
+					<string>/System/Library/CoreServices/Software Update.app</string>
+					<key>requiredInstallationDate</key>
+					<date>2024-01-16T08:53:18Z</date>
+					<key>requiredMinimumOSVersion</key>
+					<string>{{required_os_version}}</string>
+					<key>targetedOSVersionsRule</key>
+					<string>default</string>
 				</dict>
-				<key>optionalFeatures</key>
-				<dict>
-					<key>asynchronousSoftwareUpdate</key>
-					<true />
-					<key>attemptToFetchMajorUpgrade</key>
-					<true />
-					<key>enforceMinorUpdates</key>
-					<true />
-				</dict>
-				<key>osVersionRequirements</key>
+			</array>
+			<key>userInterface</key>
+			<dict>
+				<key>updateElements</key>
 				<array>
 					<dict>
-						<key>aboutUpdateURL</key>
-						<string>{{customer_support_link}}</string>
-						<key>majorUpgradeAppPath</key>
-						<string>/System/Library/CoreServices/Software Update.app</string>
-						<key>requiredInstallationDate</key>
-						{{required_update_date}} 
-						<key>requiredMinimumOSVersion</key>
-						<string>{{required_os_version}}</string>
-						<key>targetedOSVersionsRule</key>
-						<string>default</string>
+						<key>_language</key>
+						<string>da</string>
+						<key>actionButtonText</key>
+						<string>Opdater enhed</string>
+						<key>customDeferralButtonText</key>
+						<string>Brugerdefineret</string>
+						<key>customDeferralDropdownText</key>
+						<string>Udskyd</string>
+						<key>informationButtonText</key>
+						<string>Få hjælp</string>
+						<key>mainContentHeader</key>
+						<string>Din enhed vil genstarte under denne opdatering.</string>
+						<key>mainContentNote</key>
+						<string>Vigtige noter</string>
+						<key>mainContentSubHeader</key>
+						<string>Opdateringen kan tage op til 60 minutter at færdiggøre</string>
+						<key>mainContentText</key>
+						<string>På vegne af {{customer_support_name}} vil vi informere dig om at en ny systemopdatering er tilgængelig til din computer.\nOpdatering af din computer til det nyeste styresystem er vigtigt især grundet sikkerhedsmæssige årsager.\n\nÆldre styresystemer kan være sårbare og ved at opdatere til den nyeste version sikrer du, at din computer er beskyttet mod potentielle angreb og malware\n\nDette er afgørende for at bevare dine data og personlige oplysninger i sikkerhed, samt minimere risikoen for cyberangreb.\n\nTryk på opdater enhed for at starte opdateringen nu.</string>
+						<key>mainHeader</key>
+						<string>Din enhed har behov for en opdatering af styresystemet</string>
+						<key>oneDayDeferralButtonText</key>
+						<string>1 dag</string>
+						<key>oneHourDeferralButtonText</key>
+						<string>1 time</string>
+						<key>primaryQuitButtonText</key>
+						<string>Senere</string>
+						<key>secondaryQuitButtonText</key>
+						<string>Jeg accepterer</string>
+						<key>subHeader</key>
+						<string>Din IT afdeling kræver at du opdatere din computer til et nyere styresystem så hurtigt som muligt. </string>
 					</dict>
 				</array>
-
-				<key>userInterface</key>
-				<dict>
-					<key>updateElements</key>
-					<array>
-						<dict>
-							<key>_language</key>
-							<string>da</string>
-							<key>actionButtonText</key>
-							<string>Opdater enhed</string>
-							<key>customDeferralButtonText</key>
-							<string>Brugerdefineret</string>
-							<key>customDeferralDropdownText</key>
-							<string>Udskyd</string>
-							<key>informationButtonText</key>
-							<string>Få hjælp</string>
-							<key>mainContentHeader</key>
-							<string>Din enhed vil genstarte under denne opdatering.</string>
-							<key>mainContentNote</key>
-							<string>Vigtige noter</string>
-							<key>mainContentSubHeader</key>
-							<string>Opdateringen kan tage op til 60 minutter at færdiggøre</string>
-							<key>mainContentText</key>
-							<string>På vegne af {{customer_support_name}} vil vi informere dig om at en ny systemopdatering er tilgængelig til din computer.\nOpdatering af din computer til det nyeste styresystem er vigtigt især grundet sikkerhedsmæssige årsager.\n\nÆldre styresystemer kan være sårbare og ved at opdatere til den nyeste version sikrer du, at din computer er beskyttet mod potentielle angreb og malware\n\nDette er afgørende for at bevare dine data og personlige oplysninger i sikkerhed, samt minimere risikoen for cyberangreb.\n\nTryk på opdater enhed for at starte opdateringen nu.</string>
-							<key>mainHeader</key>
-							<string>Din enhed har behov for en opdatering af styresystemet</string>
-							<key>oneDayDeferralButtonText</key>
-							<string>1 dag</string>
-							<key>oneHourDeferralButtonText</key>
-							<string>1 time</string>
-							<key>primaryQuitButtonText</key>
-							<string>Senere</string>
-							<key>secondaryQuitButtonText</key>
-							<string>Jeg accepterer</string>
-							<key>subHeader</key>
-							<string>Din IT afdeling kræver at du opdatere din computer til et nyere styresystem så hurtigt som muligt. </string>
-						</dict>
-					</array>
-				</dict>
 			</dict>
-		</array>
-		<key>PayloadDisplayName</key>
-		<string>KB</string>
-		<key>PayloadIdentifier</key>
-		<string>Caresupport</string>
-		<key>PayloadOrganization</key>
-		<string>CareSupport ApS</string>
-		<key>PayloadScope</key>
-		<string>System</string>
-		<key>PayloadType</key>
-		<string>Configuration</string>
-		<key>PayloadUUID</key>
-		<string>624EDEBA-E810-4EF5-9D06-37CAF67EE249</string>
-		<key>PayloadVersion</key>
-		<integer>1</integer>
-	</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>https://github.com/CareSupport-ApS/macos-profiles/blob/main/%5BCS%20Profile%5D_Nudge.mobileconfig</string>
+	<key>PayloadDisplayName</key>
+	<string>CS - Mac OS Updates Configuration</string>
+	<key>PayloadIdentifier</key>
+	<string>com.caresupport.mac.updates</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>98F57F74-69A4-4747-9E3F-A709CC99B16B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
 </plist>
