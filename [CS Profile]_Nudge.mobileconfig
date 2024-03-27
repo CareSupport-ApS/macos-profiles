@@ -7,6 +7,14 @@
 		<dict>
 			<key>AllowPreReleaseInstallation</key>
 			<false/>
+			<key>AutomaticCheckEnabled</key>
+			<true/>
+			<key>AutomaticallyInstallAppUpdates</key>
+			<true/>
+			<key>AutomaticDownload</key>
+			<true/>
+			<key>CriticalUpdateInstall</key>
+			<true/>
 			<key>AutomaticallyInstallMacOSUpdates</key>
 			<false/>
 			<key>PayloadDisplayName</key>
@@ -33,6 +41,16 @@
 			<integer>1</integer>
 			<key>optionalFeatures</key>
 			<dict>
+				<key>acceptableApplicationBundleIDs</key>
+				<array>
+					<string>us.zoom.xos</string>
+				</array>
+				<key>attemptToFetchMajorUpgrade</key>
+				<false/>
+				<key>disableSoftwareUpdateWorkflow</key>
+				<true/>
+				<key>enforceMinorUpdates</key>
+				<true/>
 				<key>aggressiveUserExperience</key>
 				<false/>
 				<key>aggressiveUserFullScreenExperience</key>

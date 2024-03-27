@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ExtensionData</key>
+			<dict>
+				<key>AppPrefixAllowList</key>
+				<string>com.microsoft.,com.apple.,com.google.</string>
+				<key>Enable_SSO_On_All_ManagedApps</key>
+				<integer>1</integer>
+				<key>browser_sso_interaction_enabled</key>
+				<integer>1</integer>
+				<key>disable_explicit_app_prompt</key>
+				<integer>1</integer>
+			</dict>
+			<key>ExtensionIdentifier</key>
+			<string>com.microsoft.CompanyPortalMac.ssoextension</string>
+			<key>PayloadDisplayName</key>
+			<string>Single Sign-On Extensions #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.extensiblesso.89228D6E-99DF-4D6A-AC50-B59CE66983BD</string>
+			<key>PayloadType</key>
+			<string>com.apple.extensiblesso</string>
+			<key>PayloadUUID</key>
+			<string>B218FB36-A046-4DDA-85BF-3D87EB6BB702</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>TeamIdentifier</key>
+			<string>UBF8T346G9</string>
+			<key>Type</key>
+			<string>Redirect</string>
+			<key>URLs</key>
+			<array>
+				<string>https://login.microsoftonline.com</string>
+				<string>https://login.microsoft.com</string>
+				<string>https://sts.windows.net</string>
+				<string>https://login.partner.microsoftonline.cn</string>
+				<string>https://login.partner.microsoftonline.cn</string>
+				<string>https://login.microsoftonline.us</string>
+				<string>https://login-us.microsoftonline.com</string>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>[CS Profile] - SSO Mac Extension</string>
+	<key>PayloadIdentifier</key>
+	<string>com.caresupport.ssomac</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F38C640B-7EA1-4DE7-84C8-B56727939461</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
