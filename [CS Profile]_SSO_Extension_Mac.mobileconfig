@@ -38,7 +38,6 @@
 				<string>https://login.microsoft.com</string>
 				<string>https://sts.windows.net</string>
 				<string>https://login.partner.microsoftonline.cn</string>
-				<string>https://login.partner.microsoftonline.cn</string>
 				<string>https://login.microsoftonline.us</string>
 				<string>https://login-us.microsoftonline.com</string>
 			</array>
