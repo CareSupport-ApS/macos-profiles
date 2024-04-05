@@ -12,7 +12,7 @@
 			<key>PayloadIdentifier</key>
 			<string>51FECC71-DDF0-4587-BB6D-B5F74A2A9934</string>
 			<key>PayloadOrganization</key>
-			<string>CareSupport</string>
+			<string>Fremantle</string>
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
@@ -72,7 +72,7 @@
 			<key>PayloadIdentifier</key>
 			<string>43E47E66-A291-4D93-A1DC-4B2912E23C79</string>
 			<key>PayloadOrganization</key>
-			<string>CareSupport</string>
+			<string>Fremantle</string>
 			<key>PayloadType</key>
 			<string>com.apple.system-extension-policy</string>
 			<key>PayloadUUID</key>
@@ -137,7 +137,7 @@
 			<key>tamperProtection</key>
 			<dict>
 				<key>enforcementLevel</key>
-				<string>block</string>
+				<string>audit</string>
 			</dict>
 			<key>userInterface</key>
 			<dict>
@@ -167,7 +167,7 @@
 			<key>PayloadIdentifier</key>
 			<string>78F09620-3833-4638-951F-5A346EC6A0D2</string>
 			<key>PayloadOrganization</key>
-			<string></string>
+			<string>JAMF Software</string>
 			<key>PayloadType</key>
 			<string>com.apple.webcontent-filter</string>
 			<key>PayloadUUID</key>
@@ -180,35 +180,6 @@
 			<string>Microsoft Defender Content Filter</string>
 			<key>VendorConfig</key>
 			<dict/>
-		</dict>
-		<dict>
-			<key>AllowUserOverrides</key>
-			<false/>
-			<key>AllowedKernelExtensions</key>
-			<dict>
-				<key>AllowNonAdminUserApprovals</key>
-				<false/>
-				<key>AllowUserOverrides</key>
-				<false/>
-				<key>AllowedTeamIdentifiers</key>
-				<array>
-					<string>UBF8T346G9</string>
-				</array>
-			</dict>
-			<key>AllowedTeamIdentifiers</key>
-			<array>
-				<string>UBF8T346G9</string>
-			</array>
-			<key>PayloadDisplayName</key>
-			<string>Approved Kernel Extensions</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.syspolicy.kernel-extension-policy.0DF28178-5BF7-4B6B-8A6A-55B84BBD0AD0</string>
-			<key>PayloadType</key>
-			<string>com.apple.syspolicy.kernel-extension-policy</string>
-			<key>PayloadUUID</key>
-			<string>0DF28178-5BF7-4B6B-8A6A-55B84BBD0AD0</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
@@ -224,7 +195,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>674B9F49-5189-41DD-BB7B-536E91E654D6</string>
+	<string>EEFD0CE8-8E2D-420F-9ACE-448E3F8FD42B</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
