@@ -12,7 +12,7 @@
 			<key>PayloadIdentifier</key>
 			<string>51FECC71-DDF0-4587-BB6D-B5F74A2A9934</string>
 			<key>PayloadOrganization</key>
-			<string>CareSupport</string>
+			<string>CareSupport ApS</string>
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
