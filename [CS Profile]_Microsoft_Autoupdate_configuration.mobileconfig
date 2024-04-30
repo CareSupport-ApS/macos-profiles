@@ -16,10 +16,17 @@
 					<key>LCID</key>
 					<integer>1033</integer>
 				</dict>
-				<key>/Applications/Microsoft Defender ATP.app</key>
+				<key>/Applications/Microsoft Defender.app</key>
 				<dict>
 					<key>Application ID</key>
 					<string>WDAV00</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+				<key>/Applications/Microsoft Edge.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>EDGE01</string>
 					<key>LCID</key>
 					<integer>1033</integer>
 				</dict>
@@ -95,7 +102,7 @@
 			<key>PayloadType</key>
 			<string>com.microsoft.autoupdate2</string>
 			<key>PayloadUUID</key>
-			<string>A2F3F347-6B26-4F29-8DF8-1DBB3A6BFDE3</string>
+			<string>BFCD9D52-EE60-441F-9C96-EC433D88B669</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>StartDaemonOnAppLaunch</key>
@@ -104,12 +111,14 @@
 			<integer>14</integer>
 			<key>UpdateDeadline.FinalCountDown</key>
 			<integer>120</integer>
+			<key>UpdateDeadline.StartAutomaticUpdates</key>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Microsoft AutoUpdate Configuation</string>
+	<string>[CS Profile] MS Autoupdate</string>
 	<key>PayloadIdentifier</key>
-	<string>com.github.erikberglund.ProfileCreator.206002FD-7151-4F50-9973-6D53ADFFC703</string>
+	<string>com.caresupport.msautoupdate.206002FD-7151-4F50-9973-6D53ADFFC703</string>
 	<key>PayloadOrganization</key>
 	<string>CareSupport ApS</string>
 	<key>PayloadScope</key>
@@ -117,7 +126,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>206002FD-7151-4F50-9973-6D53ADFFC703</string>
+	<string>2E7B03A7-0CBB-40C3-8464-71F48695954D</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

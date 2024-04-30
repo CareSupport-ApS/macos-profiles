@@ -212,9 +212,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Default CareSupport MS Defender profile which includes: PPPC, Network Extension, System Extension, Notifications and Onboarding for Microsoft Defender</string>
+	<string>Default CareSupport MS Defender profile which includes: PPPC, Network Extension, System Extension, Notifications</string>
 	<key>PayloadDisplayName</key>
-	<string>Microsoft Defender - Onboarding &amp; Global Settings</string>
+	<string>[CS Profile] - Microsoft Defender - Global Settings</string>
 	<key>PayloadIdentifier</key>
 	<string>EEFD0CE8-8E2D-420F-9ACE-448E3F8FD42B</string>
 	<key>PayloadOrganization</key>

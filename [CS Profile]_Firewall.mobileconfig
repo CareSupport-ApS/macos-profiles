@@ -26,7 +26,7 @@
 	<key>PayloadDescription</key>
 	<string>Purpose is to setup firewall </string>
 	<key>PayloadDisplayName</key>
-	<string>Firewall</string>
+	<string>[CS Profile] - Firewall</string>
 	<key>PayloadIdentifier</key>
 	<string>Caresupport</string>
 	<key>PayloadOrganization</key>

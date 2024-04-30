@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+<dict>
+    <key>name</key>
+    <string>ADMIN</string>
+    <key>path</key>
+    <string>06. KONCERN/01. ADMIN</string>
+    <key>description</key>
+    <string>Administrations filer</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>JURA</string>
+    <key>path</key>
+    <string>06. KONCERN/02. JURA</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>LEDERMØDE</string>
+    <key>path</key>
+    <string>06. KONCERN/03. LEDERMØDE</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>ØKONOMI</string>
+    <key>path</key>
+    <string>06. KONCERN/04. ØKONOMI</string>
+</dict>
+</array>
+</plist>

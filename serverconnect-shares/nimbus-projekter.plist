@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+<dict>
+    <key>name</key>
+    <string>Hele mappen</string>
+    <key>path</key>
+    <string>01. PROJEKTER - FILM OG TV</string>
+    <key>description</key>
+    <string>Åbner hele mappen</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>UDV OG PROD</string>
+    <key>path</key>
+    <string>01. PROJEKTER - FILM OG TV/01. UDV &amp; PROD</string>
+    <key>description</key>
+    <string>Til produktioner under udvikling og produktion</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>CO-PRODUKTIONER</string>
+    <key>path</key>
+    <string>01. PROJEKTER - FILM OG TV/02. CO-PRODUKTIONER (minor)</string>
+    <key>description</key>
+    <string>Til produktionerne der produceres sammen med andre producenter</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>KATALOG</string>
+    <key>path</key>
+    <string>01. PROJEKTER - FILM OG TV/04. KATALOG</string>
+    <key>description</key>
+    <string>Alle arkiverede produktionsfiler</string>
+</dict>
+</array>
+</plist>

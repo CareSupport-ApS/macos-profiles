@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pfm_app_url</key>
+	<string>https://gitlab.rrze.uni-erlangen.de/faumac/networkShareMounter</string>
+	<key>pfm_description</key>
+	<string>ServerConnect Settings</string>
+	<key>pfm_documentation_url</key>
+	<string>https://gitlab.rrze.uni-erlangen.de/faumac/networkShareMounter</string>
+	<key>pfm_domain</key>
+	<string>com.caresupport.ServerConnect</string>
+	<key>pfm_format_version</key>
+	<integer>1</integer>
+	<key>pfm_last_modified</key>
+	<date>2024-02-26T13:10:00Z</date>
+	<key>pfm_platforms</key>
+	<array>
+		<string>macOS</string>
+	</array>
+	<key>pfm_subkeys</key>
+	<array>
+		<dict>
+			<key>pfm_default</key>
+			<string>com.caresupport.ServerConnect</string>
+			<key>pfm_description</key>
+			<string>A unique identifier for the payload, dot-delimited. Usually root PayloadIdentifier+subidentifier</string>
+			<key>pfm_description_reference</key>
+			<string>A reverse-DNS-style identifier for the specific payload. It is usually the same identifier as the root-level PayloadIdentifier value with an additional component appended.</string>
+			<key>pfm_name</key>
+			<string>PayloadIdentifier</string>
+			<key>pfm_require</key>
+			<string>always</string>
+			<key>pfm_title</key>
+			<string>Payload Identifier</string>
+			<key>pfm_type</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>pfm_default</key>
+			<string>com.caresupport.ServerConnect</string>
+			<key>pfm_description</key>
+			<string>The type of the payload, a reverse dns string</string>
+			<key>pfm_description_reference</key>
+			<string>The payload type.</string>
+			<key>pfm_name</key>
+			<string>PayloadType</string>
+			<key>pfm_require</key>
+			<string>always</string>
+			<key>pfm_title</key>
+			<string>Payload Type</string>
+			<key>pfm_type</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>pfm_default</key>
+			<string></string>
+			<key>pfm_description</key>
+			<string>Unique identifier for the payload (format 01234567-89AB-CDEF-0123-456789ABCDEF)</string>
+			<key>pfm_description_reference</key>
+			<string>A globally unique identifier for the payload. The actual content is unimportant, but it must be globally unique. In macOS, you can use uuidgen to generate reasonable UUIDs.</string>
+			<key>pfm_format</key>
+			<string>^[0-9A-Za-z]{8}-[0-9A-Za-z]{4}-[0-9A-Za-z]{4}-[0-9A-Za-z]{4}-[0-9A-Za-z]{12}$</string>
+			<key>pfm_name</key>
+			<string>PayloadUUID</string>
+			<key>pfm_require</key>
+			<string>always</string>
+			<key>pfm_title</key>
+			<string>Payload UUID</string>
+			<key>pfm_type</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>pfm_default</key>
+			<integer>1</integer>
+			<key>pfm_description</key>
+			<string>The version of the whole configuration profile.</string>
+			<key>pfm_description_reference</key>
+			<string>The version number of the individual payload.
+A profile can consist of payloads with different version numbers. For example, changes to the VPN software in iOS might introduce a new payload version to support additional features, but Mail payload versions would not necessarily change in the same release.</string>
+			<key>pfm_name</key>
+			<string>PayloadVersion</string>
+			<key>pfm_require</key>
+			<string>always</string>
+			<key>pfm_title</key>
+			<string>Payload Version</string>
+			<key>pfm_type</key>
+			<string>integer</string>
+		</dict>
+		<dict>
+			<key>pfm_description</key>
+			<string>Configure the company name shown in the application</string>
+			<key>pfm_name</key>
+			<string>companyName</string>
+			<key>pfm_title</key>
+			<string>Company Name</string>
+			<key>pfm_type</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>pfm_description</key>
+			<string>Configure the subtitle shown in the app.</string>
+			<key>pfm_name</key>
+			<string>subtitle</string>
+			<key>pfm_title</key>
+			<string>Subtitle</string>
+			<key>pfm_type</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>pfm_description</key>
+			<string>Configure the logo shown in the app.</string>
+			<key>pfm_name</key>
+			<string>logoUrl</string>
+			<key>pfm_title</key>
+			<string>Logo URL</string>
+			<key>pfm_type</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>pfm_default</key>
+			<string>kb.caresupport.dk</string>
+			<key>pfm_description</key>
+			<string>Configure a help URL to help users interact with the application.</string>
+			<key>pfm_format</key>
+			<string>^http[s]?:\/\/\S*$</string>
+			<key>pfm_name</key>
+			<string>helpURL</string>
+			<key>pfm_title</key>
+			<string>Help URL</string>
+			<key>pfm_type</key>
+			<string>string</string>
+			<key>pfm_app_min</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>pfm_title</key>
+			<string>Managed network servers</string>
+			<key>pfm_description</key>
+			<string>Array with managed network servers.</string>
+			<key>pfm_documentation_url</key>
+			<string>https://gitlab.rrze.fau.de/faumac/networkShareMounter#configuration-preferences</string>
+			<key>pfm_app_min</key>
+			<string>0</string>
+			<key>pfm_name</key>
+			<string>servers</string>
+			<key>pfm_subkeys</key>
+			<array>
+				<dict>
+					<key>pfm_hidden</key>
+					<string>container</string>
+					<key>pfm_subkeys</key>
+					<array>
+						<dict>
+							<key>pfm_title</key>
+							<string>Name</string>
+							<key>pfm_description</key>
+							<string>Example: CareSupport Filserver, eller SharePoint Online</string>
+							<key>pfm_name</key>
+							<string>name</string>
+							<key>pfm_require</key>
+							<string>always</string>
+							<key>pfm_type</key>
+							<string>string</string>
+							<key>pfm_value_placeholder</key>
+							<string>CareSupport Filserver</string>
+						</dict>
+						<dict>
+							<key>pfm_default</key>
+							<string>krb</string>
+							<key>pfm_title</key>
+							<string>Connection Method</string>
+							<key>pfm_description</key>
+							<string>How the application will connect to the server</string>
+							<key>pfm_name</key>
+							<string>method</string>
+							<key>pfm_require</key>
+							<string>always</string>
+							<key>pfm_range_list</key>
+							<array>
+								<string>afp</string>
+								<string>smb</string>
+								<string>web</string>
+							</array>
+							<key>pfm_range_list_titles</key>
+							<array>
+								<string>AFP</string>
+								<string>SMB</string>
+								<string>Browser</string>
+							</array>
+							<key>pfm_type</key>
+							<string>string</string>
+						</dict>
+						<dict>
+							<key>pfm_title</key>
+							<string>Address</string>
+							<key>pfm_description</key>
+							<string>The address for the server. Example: files.caresupport.dk, 10.11.1.1 or caresupportaps.sharepointonline.com</string>
+							<key>pfm_name</key>
+							<string>address</string>
+							<key>pfm_type</key>
+							<string>string</string>
+						</dict>
+						<dict>
+							<key>pfm_title</key>
+							<string>Username (Optional)</string>
+							<key>pfm_description</key>
+							<string>Optional: Predefine a username for authentication using username/password. If method is Browser, this will be ignored.</string>
+							<key>pfm_name</key>
+							<string>username</string>
+							<key>pfm_type</key>
+							<string>string</string>
+						</dict>
+							<dict>
+							<key>pfm_title</key>
+							<string>LDAP Url</string>
+							<key>pfm_description</key>
+							<string>Advanced: If the server requires the user to perform an LDAP bind, before connecting - specify the LDAP bind url!</string>
+							<key>pfm_name</key>
+							<string>ldapUrl</string>
+							<key>pfm_type</key>
+							<string>string</string>
+						</dict>
+						<dict>
+							<key>pfm_title</key>
+							<string>Paths</string>
+							<key>pfm_description</key>
+							<string>Define the paths that belong to this server.</string>
+							<key>pfm_name</key>
+							<string>paths</string>
+							<key>pfm_type</key>
+							<string>array</string>
+							<key>pfm_subkeys</key>
+							<array>
+							<dict>
+								<key>pfm_hidden</key>
+								<string>container</string>
+								<key>pfm_type</key>
+								<string>dictionary</string>
+								<key>pfm_subkeys</key>
+								<array>
+								<dict>
+									<key>pfm_title</key>
+							<string>Path name</string>
+							<key>pfm_name</key>
+							<string>name</string>
+							<key>pfm_require</key>
+							<string>always</string>
+							<key>pfm_type</key>
+							<string>string</string>
+								</dict>
+								<dict>
+									<key>pfm_title</key>
+							<string>Path description</string>
+							<key>pfm_name</key>
+							<string>description</string>
+							<key>pfm_type</key>
+							<string>string</string>
+								</dict>
+								<dict>
+									<key>pfm_title</key>
+							<string>Path path</string>
+							<key>pfm_name</key>
+							<string>path</string>
+							<key>pfm_require</key>
+							<string>always</string>
+							<key>pfm_type</key>
+							<string>string</string>
+								</dict>
+								</array>
+							</dict>
+							</array>
+			</dict>
+				</array>
+				<key>pfm_type</key>
+					<string>dictionary</string>
+				</dict>
+			</array>
+			<key>pfm_type</key>
+			<string>array</string>
+		</dict>
+	</array>
+	<key>pfm_targets</key>
+	<array>
+		<string>system</string>
+		<string>user</string>
+	</array>
+	<key>pfm_title</key>
+	<string>ServerConnect Preferences</string>
+	<key>pfm_unique</key>
+	<true/>
+	<key>pfm_version</key>
+	<integer>1</integer>
+</dict>
+</plist>

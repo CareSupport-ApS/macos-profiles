@@ -8,15 +8,17 @@
 			<key>AllowPreReleaseInstallation</key>
 			<false/>
 			<key>AutomaticCheckEnabled</key>
-			<true/>
-			<key>AutomaticallyInstallAppUpdates</key>
-			<true/>
+			<false/>
 			<key>AutomaticDownload</key>
-			<true/>
-			<key>CriticalUpdateInstall</key>
+			<false/>
+			<key>AutomaticallyInstallAppUpdates</key>
 			<true/>
 			<key>AutomaticallyInstallMacOSUpdates</key>
 			<false/>
+			<key>CriticalUpdateInstall</key>
+			<false/>
+			<key>ManagedDeferredInstallDelay</key>
+			<integer>60</integer>
 			<key>PayloadDisplayName</key>
 			<string>Software Update</string>
 			<key>PayloadIdentifier</key>
@@ -24,7 +26,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.SoftwareUpdate</string>
 			<key>PayloadUUID</key>
-			<string>9459E332-B08B-4440-A03B-A54FE5BBE79E</string>
+			<string>98313632-C242-4D9E-9439-A45A9CE5450D</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -36,7 +38,7 @@
 			<key>PayloadType</key>
 			<string>com.github.macadmins.Nudge</string>
 			<key>PayloadUUID</key>
-			<string>8BBC1027-75E2-4A8D-877E-C92A850A3268</string>
+			<string>7811CCCB-A2F0-4C74-B5DE-BC5A7865A4BE</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>optionalFeatures</key>
@@ -45,15 +47,19 @@
 				<array>
 					<string>us.zoom.xos</string>
 				</array>
+				<key>acceptableCameraUsage</key>
+				<true/>
+				<key>acceptableScreenSharingUsage</key>
+				<true/>
+				<key>aggressiveUserExperience</key>
+				<false/>
+				<key>aggressiveUserFullScreenExperience</key>
+				<false/>
 				<key>attemptToFetchMajorUpgrade</key>
 				<false/>
 				<key>disableSoftwareUpdateWorkflow</key>
 				<true/>
 				<key>enforceMinorUpdates</key>
-				<true/>
-				<key>aggressiveUserExperience</key>
-				<false/>
-				<key>aggressiveUserFullScreenExperience</key>
 				<false/>
 			</dict>
 			<key>osVersionRequirements</key>
@@ -95,7 +101,7 @@
 						<key>mainContentText</key>
 						<string>På vegne af {{customer_support_name}} vil vi informere dig om at en ny systemopdatering er tilgængelig til din computer.\nOpdatering af din computer til det nyeste styresystem er vigtigt især grundet sikkerhedsmæssige årsager.\n\nÆldre styresystemer kan være sårbare og ved at opdatere til den nyeste version sikrer du, at din computer er beskyttet mod potentielle angreb og malware\n\nDette er afgørende for at bevare dine data og personlige oplysninger i sikkerhed, samt minimere risikoen for cyberangreb.\n\nTryk på opdater enhed for at starte opdateringen nu.</string>
 						<key>mainHeader</key>
-						<string>Din enhed har behov for en opdatering af styresystemet</string>
+						<string>Din enhed skal opdateres!</string>
 						<key>oneDayDeferralButtonText</key>
 						<string>1 dag</string>
 						<key>oneHourDeferralButtonText</key>
@@ -105,7 +111,7 @@
 						<key>secondaryQuitButtonText</key>
 						<string>Jeg accepterer</string>
 						<key>subHeader</key>
-						<string>Din IT afdeling kræver at du opdatere din computer til et nyere styresystem så hurtigt som muligt. </string>
+						<string>Hjælp med at forøge IT-sikkerheden</string>
 					</dict>
 				</array>
 			</dict>
@@ -114,15 +120,15 @@
 	<key>PayloadDescription</key>
 	<string>https://github.com/CareSupport-ApS/macos-profiles/blob/main/%5BCS%20Profile%5D_Nudge.mobileconfig</string>
 	<key>PayloadDisplayName</key>
-	<string>CS - Mac OS Updates Configuration</string>
+	<string>[CS Profile] - Nudge</string>
 	<key>PayloadIdentifier</key>
-	<string>com.caresupport.mac.updates</string>
+	<string>com.caresupport.mac.nudge</string>
 	<key>PayloadOrganization</key>
 	<string>CareSupport ApS</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>98F57F74-69A4-4747-9E3F-A709CC99B16B</string>
+	<string>D71E484E-9BC5-4557-8D86-E9C843CAE72B</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
