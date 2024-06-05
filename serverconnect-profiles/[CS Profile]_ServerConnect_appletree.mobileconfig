@@ -10,11 +10,11 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>8FDFDEDF-5235-496E-ABF2-C1574F9560B5</string>
+			<string>4A3F092F-358A-43DD-97BE-5C0E8E4FF09C</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
-			<string>SF Studios</string>
+			<string>AppleTree Productions</string>
 			<key>helpURL</key>
 			<string>https://kb.caresupport.dk/kunder/appletree</string>
 			<key>logoUrl</key>
@@ -64,105 +64,6 @@
 						</dict>
 					</array>
 				</dict>
-				<dict>
-					<key>address</key>
-					<string>LBSFWPIFRFS01.ADS.BONNIERGROUP.COM</string>
-					<key>method</key>
-					<string>smb</string>
-					<key>name</key>
-					<string>Filserver</string>
-					<key>paths</key>
-					<array>
-						<dict>
-							<key>description</key>
-							<string>Produktionsmappen</string>
-							<key>name</key>
-							<string>DKProd</string>
-							<key>path</key>
-							<string>DKProd/</string>
-						</dict>
-						<dict>
-							<key>description</key>
-							<string>Administrations mappen</string>
-							<key>name</key>
-							<string>Administration</string>
-							<key>path</key>
-							<string>DKProd/Administration</string>
-						</dict>
-						<dict>
-							<key>description</key>
-							<string>Praktikant mappen</string>
-							<key>name</key>
-							<string>Praktikanter</string>
-							<key>path</key>
-							<string>DKProd/Administration/Praktikanter</string>
-						</dict>
-					</array>
-					<key>username</key>
-					<string>{{userprincipalname}}</string>
-				</dict>
-				<dict>
-					<key>address</key>
-					<string>10.11.1.10</string>
-					<key>method</key>
-					<string>smb</string>
-					<key>name</key>
-					<string>FTP / Masterarkiv</string>
-					<key>paths</key>
-					<array>
-						<dict>
-							<key>description</key>
-							<string>Til master arkiver</string>
-							<key>name</key>
-							<string>Master Archive</string>
-							<key>path</key>
-							<string>remotes/Master Archive</string>
-						</dict>
-						<dict>
-							<key>description</key>
-							<string>FTP mapper</string>
-							<key>name</key>
-							<string>FTP</string>
-							<key>path</key>
-							<string>remotes/homes/</string>
-						</dict>
-						<dict>
-							<key>name</key>
-							<string>Work</string>
-							<key>path</key>
-							<string>remotes/homes/</string>
-						</dict>
-					</array>
-					<key>username</key>
-					<string>{{userprincipalname}}</string>
-				</dict>
-				<dict>
-					<key>address</key>
-					<string>https://fmebrandmanagement.app.box.com/folder</string>
-					<key>method</key>
-					<string>web</string>
-					<key>mountPoint</key>
-					<string>~/Library/CloudStorage/Box-Box</string>
-					<key>name</key>
-					<string>Box</string>
-					<key>paths</key>
-					<array>
-						<dict>
-							<key>name</key>
-							<string>PA-Lister</string>
-							<key>path</key>
-							<string>sites/NimbusLister-PA</string>
-						</dict>
-						<dict>
-							<key>localPath</key>
-							<string>MISO FILM SWEDEN/01. IN DEVELOPMENT</string>
-							<key>name</key>
-							<string>IN PRODUCTION</string>
-							<key>path</key>
-							<string>169284185296</string>
-						</dict>
-					</array>
-				</dict>
 			</array>
 			<key>subtitle</key>
 			<string>Her finder du links til de forskellige dataplaceringer</string>
@@ -177,7 +78,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>5D246F3B-A55D-4F22-8D43-F8CAAE283949</string>
+	<string>D53A189A-B083-4FCB-A1FD-90C297E7B10F</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
