@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+<dict>
+    <key>name</key>
+    <string>PA-Lister</string>
+    <key>path</key>
+    <string>sites/NimbusLister-PA</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>IN PRODUCTION</string>
+    <key>localPath</key>
+    <string>MISO FILM SWEDEN/01. IN DEVELOPMENT</string>
+    <key>path</key>
+    <string>169284185296</string>
+</dict>
+</array>
+</plist>

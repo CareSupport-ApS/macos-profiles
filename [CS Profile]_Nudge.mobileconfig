@@ -70,7 +70,7 @@
 					<key>majorUpgradeAppPath</key>
 					<string>/System/Library/CoreServices/Software Update.app</string>
 					<key>requiredInstallationDate</key>
-					<date>2024-01-16T08:53:18Z</date>
+					{{required_update_date}}
 					<key>requiredMinimumOSVersion</key>
 					<string>{{required_os_version}}</string>
 					<key>targetedOSVersionsRule</key>
@@ -99,7 +99,7 @@
 						<key>mainContentSubHeader</key>
 						<string>Opdateringen kan tage op til 60 minutter at færdiggøre</string>
 						<key>mainContentText</key>
-						<string>På vegne af {{customer_support_name}} vil vi informere dig om at en ny systemopdatering er tilgængelig til din computer.\nOpdatering af din computer til det nyeste styresystem er vigtigt især grundet sikkerhedsmæssige årsager.\n\nÆldre styresystemer kan være sårbare og ved at opdatere til den nyeste version sikrer du, at din computer er beskyttet mod potentielle angreb og malware\n\nDette er afgørende for at bevare dine data og personlige oplysninger i sikkerhed, samt minimere risikoen for cyberangreb.\n\nTryk på opdater enhed for at starte opdateringen nu.</string>
+						<string>På vegne af {{customer_support_name}} vil vi informere dig om at en ny systemopdatering er tilgængelig til din computer.\nOpdatering af din computer til det nyeste styresystem er vigtigt især grundet sikkerhedsmæssige årsager.\n\nÆldre styresystemer kan være sårbare og ved at opdatere til den nyeste version sikrer du, at din computer er beskyttet mod potentielle angreb og malware\n\nDette er afgørende for at bevare dine data og personlige oplysninger i sikkerhed, samt minimere risikoen for cyberangreb.\n\nTryk på opdater enhed for at starte opdateringen nu.\n\nVenlig hilsen CareSupport ApS</string>
 						<key>mainHeader</key>
 						<string>Din enhed skal opdateres!</string>
 						<key>oneDayDeferralButtonText</key>

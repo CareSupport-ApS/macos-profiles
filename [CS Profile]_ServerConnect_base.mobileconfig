@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.caresupport.ServerConnect.7DD49B0C-F42E-4E5C-8D3D-93F69ED98A74</string>
+			<key>PayloadType</key>
+			<string>com.caresupport.ServerConnect</string>
+			<key>PayloadUUID</key>
+			<string>BDA2ECCC-9EF7-4E7A-97B7-AD0809F9D8E1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>companyName</key>
+			<string>SF Studios</string>
+			<key>helpURL</key>
+			<string>https://kb.caresupport.dk/kunder/sf</string>
+			<key>logoUrl</key>
+			<string>https://upload.wikimedia.org/wikipedia/commons/3/3f/Svensk_Filmindustri_Studios_Logo.svg</string>
+			<key>servers</key>
+			<array>
+				<dict>
+					<key>address</key>
+					<string>https://svenskfilmindustri.sharepoint.com</string>
+					<key>method</key>
+					<string>web</string>
+					<key>name</key>
+					<string>SharePoint</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>Administration</string>
+							<key>path</key>
+							<string>sites/Administration-DK-Prod/Dokumenter/Forms/AllItems.aspx</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>Arkiv</string>
+							<key>path</key>
+							<string>sites%2FAdministration-DK-Prod%2FDokumenter%2FForms%2FAllItems.aspx%3Fid%3D%252Fsites%252FAdministration%252DDK%252DProd%252FDokumenter%252FArkiv%26viewid%3Db478c67b%252De7bb%252D47eb%252Da441%252D7316afbb0d76</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>subtitle</key>
+			<string>Her finder du links til de forskellige dataplaceringer</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>[CS Profile] - ServerConnect SF-DK-Prod</string>
+	<key>PayloadIdentifier</key>
+	<string>dk.caresupport.B9C5FD21-6323-4B82-8983-E07E83819777</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B56D79BE-CE4D-4B10-9CC5-9456B2462EB0</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

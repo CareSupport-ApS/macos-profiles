@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+<dict>
+				<key>description</key>
+				<string>Produktionsmappen</string>
+				<key>name</key>
+				<string>DKProd</string>
+				<key>path</key>
+				<string>DKProd/</string>
+			</dict>
+			<dict>
+				<key>description</key>
+				<string>Administrations mappen</string>
+				<key>name</key>
+				<string>Administration</string>
+				<key>path</key>
+				<string>DKProd/Administration</string>
+			</dict>
+			<dict>
+				<key>description</key>
+				<string>Praktikant mappen</string>
+				<key>name</key>
+				<string>Praktikanter</string>
+				<key>path</key>
+				<string>DKProd/Administration/Praktikanter</string>
+			</dict>
+</array>
+</plist>
