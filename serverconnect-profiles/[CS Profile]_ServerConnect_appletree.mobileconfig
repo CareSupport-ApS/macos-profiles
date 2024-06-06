@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>F7781ECC-5A36-4FA3-BF87-5892DD163974</string>
+			<string>3819A3E4-8AFD-4DB9-8AE2-FAF5F9A64EA0</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -25,11 +25,11 @@
 					<key>address</key>
 					<string>https://appletreeprod.sharepoint.com/sites/aeblerne</string>
 					<key>description</key>
-					<string>Til filer hvor man kan arbejde sammen på en gang</string>
+					<string>AppleTree Productions delte filer</string>
 					<key>method</key>
 					<string>web</string>
 					<key>mountPoint</key>
-					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–SFStudios</string>
+					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–AppleTreeProductionsApS</string>
 					<key>name</key>
 					<string>SharePoint</string>
 					<key>paths</key>
@@ -80,7 +80,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>D2DADC0E-15C7-40E5-AF57-DDB8DF2EC1AF</string>
+	<string>2431BB1C-6CDC-49F9-9ABC-D6B978E49E59</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
