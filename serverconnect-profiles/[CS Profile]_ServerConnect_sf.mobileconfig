@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>8FDFDEDF-5235-496E-ABF2-C1574F9560B5</string>
+			<string>91D220AC-51D7-4447-AFAD-BB09248892C5</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -21,17 +21,38 @@
 			<string>https://upload.wikimedia.org/wikipedia/commons/3/3f/Svensk_Filmindustri_Studios_Logo.svg</string>
 			<key>servers</key>
 			<array>
-				<dict>
+							<dict>
 					<key>address</key>
 					<string>https://svenskfilmindustri.sharepoint.com</string>
 					<key>description</key>
-					<string>til filer hvor man kan arbejde sammen på en gang</string>
+					<string>Mapperne er opdelt pr. producent. Resterende mapper kommer løbende i forbindelsen med migreringen</string>
 					<key>method</key>
 					<string>web</string>
 					<key>mountPoint</key>
 					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–SFStudios</string>
 					<key>name</key>
-					<string>SharePoint</string>
+					<string>Produktioner</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>localPath</key>
+							<string>Produktioner - DK-Prod - JR</string>
+							<key>name</key>
+							<string>Julie Rix Bomholt</string>
+							<key>path</key>
+							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FJR&amp;viewid=430c32d1%2Dd17d%2D461e%2D97ff%2D52b298a6a397</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>address</key>
+					<string>https://svenskfilmindustri.sharepoint.com</string>
+					<key>method</key>
+					<string>web</string>
+					<key>mountPoint</key>
+					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–SFStudios</string>
+					<key>name</key>
+					<string>Øvrige filer</string>
 					<key>paths</key>
 					<array>
 						<dict>
@@ -67,6 +88,8 @@
 				<dict>
 					<key>address</key>
 					<string>LBSFWPIFRFS01.ADS.BONNIERGROUP.COM</string>
+					<key>description</key>
+					<string>Denne filserver bliver snart nedlagt!</string>
 					<key>method</key>
 					<string>smb</string>
 					<key>name</key>
@@ -104,6 +127,8 @@
 				<dict>
 					<key>address</key>
 					<string>10.11.1.10</string>
+					<key>description</key>
+					<string>Bruges af Post-Produktion</string>
 					<key>method</key>
 					<string>smb</string>
 					<key>name</key>
@@ -136,36 +161,9 @@
 					<key>username</key>
 					<string>{{userprincipalname}}</string>
 				</dict>
-				<dict>
-					<key>address</key>
-					<string>https://fmebrandmanagement.app.box.com/folder</string>
-					<key>method</key>
-					<string>web</string>
-					<key>mountPoint</key>
-					<string>~/Library/CloudStorage/Box-Box</string>
-					<key>name</key>
-					<string>Box</string>
-					<key>paths</key>
-					<array>
-						<dict>
-							<key>name</key>
-							<string>PA-Lister</string>
-							<key>path</key>
-							<string>sites/NimbusLister-PA</string>
-						</dict>
-						<dict>
-							<key>localPath</key>
-							<string>MISO FILM SWEDEN/01. IN DEVELOPMENT</string>
-							<key>name</key>
-							<string>IN PRODUCTION</string>
-							<key>path</key>
-							<string>169284185296</string>
-						</dict>
-					</array>
-				</dict>
 			</array>
 			<key>subtitle</key>
-			<string>Her finder du links til de forskellige dataplaceringer</string>
+			<string>Data tilhørende SF Studios opbevares i nedenstående placeringer!</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
@@ -177,7 +175,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>5D246F3B-A55D-4F22-8D43-F8CAAE283949</string>
+	<string>2BCFBB1B-27E3-4CBE-A3F2-B65DBF4E6F16</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
