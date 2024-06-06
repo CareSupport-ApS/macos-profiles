@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>A0C5BD98-5358-4E1E-AD39-055918AF5E94</string>
+			<string>F7781ECC-5A36-4FA3-BF87-5892DD163974</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -36,39 +36,39 @@
 					<array>
 						<dict>
 							<key>description</key>
-							<string>Her indsættes potentiel beskrivelse af mappen</string>
+							<string>Her indsættes potentiel beskrivelse af mappe 1</string>
 							<key>localPath</key>
 							<string>Test mappe nr 1</string>
 							<key>name</key>
-							<string>Mappe: test&amp; 1 2 3</string>
+							<string>Testmappe 1</string>
 							<key>path</key>
 							<string>Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2Ftest%26%201%202%203&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
 						</dict>
 						<dict>
 							<key>description</key>
-							<string>Her indsættes potentiel beskrivelse af mappen</string>
+							<string>Her indsættes potentiel beskrivelse af mappe 2</string>
 							<key>localPath</key>
 							<string>Test mappe nr 2</string>
 							<key>name</key>
 							<string>TestMappe 2</string>
 							<key>path</key>
-							<string>Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FTestMappe%202&apm;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FTestMappe%202&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
 						</dict>
 						<dict>
 							<key>description</key>
-							<string>Her indsættes potentiel beskrivelse af mappen</string>
+							<string>Her indsættes potentiel beskrivelse af mappe 3</string>
 							<key>localPath</key>
 							<string>Test mappe nr 3</string>
 							<key>name</key>
-							<string>TestMappe1</string>
+							<string>Testmappe 3</string>
 							<key>path</key>
-							<string>Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FTestMappe1&apm;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FTestMappe1&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
 						</dict>
 					</array>
 				</dict>
 			</array>
 			<key>subtitle</key>
-			<string>Her finder du direkte links til de forskellige mapper hos AppleTree Productions </string>
+			<string>Her finder du direkte links til mapper hos AppleTree Productions</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
@@ -80,7 +80,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>4DA94072-48A0-4D25-882B-568D8F53496A</string>
+	<string>D2DADC0E-15C7-40E5-AF57-DDB8DF2EC1AF</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
