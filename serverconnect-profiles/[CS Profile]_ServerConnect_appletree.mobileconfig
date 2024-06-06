@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>3819A3E4-8AFD-4DB9-8AE2-FAF5F9A64EA0</string>
+			<string>46C17823-8937-4855-AF31-171F1E9FF351</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -38,7 +38,7 @@
 							<key>description</key>
 							<string>Her indsættes potentiel beskrivelse af mappe 1</string>
 							<key>localPath</key>
-							<string>Test mappe nr 1</string>
+							<string>+Æblerne - test&amp; 1 2 3</string>
 							<key>name</key>
 							<string>Testmappe 1</string>
 							<key>path</key>
@@ -80,7 +80,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>2431BB1C-6CDC-49F9-9ABC-D6B978E49E59</string>
+	<string>540B2D46-EEFB-40E2-8885-304CAD124F52</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
