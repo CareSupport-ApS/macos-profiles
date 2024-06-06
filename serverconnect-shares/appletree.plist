@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Administration</string>
+			<key>path</key>
+			<string>Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2Ftest%26%201%202%203&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
+			<key>localPath</key>
+			<string>Administration - DK-Prod - Dokumenter</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Skabeloner</string>
+			<key>description</key>
+			<string>Diverse skabeloner, f.eks. mappestruktur til produktioner.</string>
+			<key>path</key>
+			<string>sites/Skabeloner-DK-Prod/Dokumenter/Forms/AllItems.aspx</string>
+			<key>localPath</key>
+			<string>Skabeloner - DK-Prod - Dokumenter</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Arkiv</string>
+			<key>description</key>
+			<string>Arkiverede produktioner mm.</string>
+			<key>path</key>
+			<string>sites/Arkiv-DK-Prod/Dokumenter/Forms/AllItems.aspx?viewpath=%2Fsites%2FArkiv%2DDK%2DProd%2FDokumenter%2FForms%2FAllItems%2Easpx</string>
+			<key>localPath</key>
+			<string>Arkiv - DK-Prod - Dokumenter</string>
+		</dict>
+	</array>
+</plist>

@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>4A3F092F-358A-43DD-97BE-5C0E8E4FF09C</string>
+			<string>A0C5BD98-5358-4E1E-AD39-055918AF5E94</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -23,9 +23,9 @@
 			<array>
 				<dict>
 					<key>address</key>
-					<string>https://svenskfilmindustri.sharepoint.com</string>
+					<string>https://appletreeprod.sharepoint.com/sites/aeblerne</string>
 					<key>description</key>
-					<string>til filer hvor man kan arbejde sammen på en gang</string>
+					<string>Til filer hvor man kan arbejde sammen på en gang</string>
 					<key>method</key>
 					<string>web</string>
 					<key>mountPoint</key>
@@ -38,9 +38,9 @@
 							<key>localPath</key>
 							<string>Administration - DK-Prod - Dokumenter</string>
 							<key>name</key>
-							<string>Administration</string>
+							<string>Hej</string>
 							<key>path</key>
-							<string>sites/Administration-DK-Prod/Dokumenter/Forms/AllItems.aspx</string>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2Ftest%26%201%202%203&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
 						</dict>
 						<dict>
 							<key>description</key>
@@ -48,7 +48,7 @@
 							<key>localPath</key>
 							<string>Skabeloner - DK-Prod - Dokumenter</string>
 							<key>name</key>
-							<string>Administration</string>
+							<string>Skabeloner</string>
 							<key>path</key>
 							<string>sites/Skabeloner-DK-Prod/Dokumenter/Forms/AllItems.aspx</string>
 						</dict>
@@ -70,7 +70,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>[CS Profile] - ServerConnect SF-DK-Prod</string>
+	<string>[CS Profile] - ServerConnect AppleTree</string>
 	<key>PayloadIdentifier</key>
 	<string>dk.caresupport.B9C5FD21-6323-4B82-8983-E07E83819777</string>
 	<key>PayloadOrganization</key>
@@ -78,7 +78,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>D53A189A-B083-4FCB-A1FD-90C297E7B10F</string>
+	<string>4DA94072-48A0-4D25-882B-568D8F53496A</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
