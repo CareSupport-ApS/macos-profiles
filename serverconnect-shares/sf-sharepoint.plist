@@ -5,6 +5,8 @@
 		<dict>
 			<key>name</key>
 			<string>Administration</string>
+			<key>description</key>
+			<string>Administrations filer, incl. tidsregistrering</string>
 			<key>path</key>
 			<string>sites/Administration-DK-Prod/Dokumenter/Forms/AllItems.aspx</string>
 			<key>localPath</key>
