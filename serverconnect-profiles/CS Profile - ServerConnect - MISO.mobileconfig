@@ -10,13 +10,15 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>E259615F-B254-42BB-8256-076F19930466</string>
+			<string>301A9DFB-B3D6-4FD6-9C5D-12F5435297F8</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
 			<string>Miso Film ApS</string>
 			<key>helpURL</key>
 			<string>https://kb.caresupport.dk/kunder/miso-film/</string>
+			<key>logoUrl</key>
+			<string>https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8109726-9708-48ac-b7ae-68e564aa6843/df0erhv-8a3da1e8-70e8-48d0-9e95-e5d71ba5d6f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4MTA5NzI2LTk3MDgtNDhhYy1iN2FlLTY4ZTU2NGFhNjg0M1wvZGYwZXJodi04YTNkYTFlOC03MGU4LTQ4ZDAtOWU5NS1lNWQ3MWJhNWQ2ZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qxlqoDf95NK64-mciUUZTSLIL8s9hIyiHDSGNNtUYtw</string>
 			<key>servers</key>
 			<array>
 				<dict>
@@ -28,6 +30,8 @@
 					<string>smb</string>
 					<key>name</key>
 					<string>Miso Film DK</string>
+					<key>username</key>
+					<string>$EMAIL</string>
 					<key>paths</key>
 					<array>
 						<dict>
@@ -79,8 +83,6 @@
 							<string>SCANS</string>
 						</dict>
 					</array>
-					<key>username</key>
-					<string>$EMAIL</string>
 				</dict>
 				<dict>
 					<key>address</key>
@@ -134,7 +136,7 @@
 				</dict>
 			</array>
 			<key>subtitle</key>
-			<string>Datalokationer til opbevaring og hentning af data</string>
+			<string>Adgang til server og sharepoint</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
@@ -146,7 +148,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>69BEB887-6AF8-4A2B-B2C1-A1D10BC9A999</string>
+	<string>DDE4F6BD-9D13-4164-AB64-AC5CAE25BEF2</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
