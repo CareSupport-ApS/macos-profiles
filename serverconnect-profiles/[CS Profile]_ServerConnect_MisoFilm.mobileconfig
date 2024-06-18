@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>6804EB2D-42F2-4A76-AB92-D54B9F604369</string>
+			<string>E259615F-B254-42BB-8256-076F19930466</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -111,11 +111,11 @@
 						</dict>
 					</array>
 					<key>username</key>
-					<string>{{email}}</string>
+					<string>$EMAIL</string>
 				</dict>
 				<dict>
 					<key>address</key>
-					<string>https://fremantlemedia.sharepoint.com/sites/DNKMSO-Tidsregistrering/Shared%20Documents/Forms/AllItems.aspx</string>
+					<string>https://fremantlemedia.sharepoint.com/sites/DNKMSO-Tidsregistrering</string>
 					<key>method</key>
 					<string>web</string>
 					<key>name</key>
@@ -123,18 +123,12 @@
 					<key>paths</key>
 					<array>
 						<dict>
-							<key>name</key>
-							<string>PA-Lister</string>
-							<key>path</key>
-							<string>sites/NimbusLister-PA</string>
-						</dict>
-						<dict>
 							<key>description</key>
 							<string>Arbejdsgiver administreret tidsregistreringsystem. Her kan du registrerer dine arbejdstimer, for at overholde EU's regulativ</string>
 							<key>name</key>
 							<string>Tidsregistrering</string>
 							<key>path</key>
-							<string>sites/tidsregistrering/Delte%20dokumenter</string>
+							<string>Shared%20Documents/Forms/AllItems.aspx</string>
 						</dict>
 					</array>
 				</dict>
@@ -152,7 +146,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>89F3DCEE-5B0A-4CDB-BCF4-6CDB079AC89F</string>
+	<string>69BEB887-6AF8-4A2B-B2C1-A1D10BC9A999</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
