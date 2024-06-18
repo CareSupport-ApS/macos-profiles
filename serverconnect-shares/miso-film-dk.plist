@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>description</key>
+		<string>Mappen vi bruger til at dele indhold på tværs af landende</string>
+		<key>name</key>
+		<string>00. SHARED</string>
+		<key>path</key>
+		<string>Miso%20Film%20Denmark/00.%20SHARED</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Den danske mappe. </string>
+		<key>name</key>
+		<string>Danmark</string>
+		<key>path</key>
+		<string>Miso%20Film%20Denmark</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Produktioner der er i produktionsfasen</string>
+		<key>name</key>
+		<string>IN PRODUKTION</string>
+		<key>path</key>
+		<string>Miso%20Film%20Denmark/02.%20IN%20PRODUCTION</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Produktioner under udvikling</string>
+		<key>name</key>
+		<string>IN DEVELOPMENT</string>
+		<key>path</key>
+		<string>Miso%20Film%20Denmark/01.%20IN%20DEVELOPMENT</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string></string>
+		<key>name</key>
+		<string>Medarbejdermappe</string>
+		<key>path</key>
+		<string>Miso%20Film%20Denmark/06.%20MISO%20FILM</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Mappen hvor scannede elementer fra printeren findes</string>
+		<key>name</key>
+		<string>SCANS</string>
+		<key>path</key>
+		<string>SCANS</string>
+	</dict>
+</array>
+</plist>
