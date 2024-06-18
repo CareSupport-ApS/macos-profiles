@@ -14,5 +14,13 @@
     <key>path</key>
     <string>sites/NimbusLister-Producer</string>
 </dict>
+<dict>
+							<key>name</key>
+							<string>Tidsregistrering</string>
+							<key>path</key>
+							<string>sites/tidsregistrering/Delte%20dokumenter</string>
+							<key>description</key>
+							<string>Arbejdsgiver administreret tidsregistreringsystem. Her kan du registrerer dine arbejdstimer, for at overholde EU's regulativ</string>
+						</dict>
 </array>
 </plist>

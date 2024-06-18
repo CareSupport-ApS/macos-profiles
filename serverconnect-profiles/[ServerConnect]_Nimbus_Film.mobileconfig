@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.caresupport.ServerConnect.B4329991-6908-4FBD-BC2E-3C063BCCC52F</string>
+			<key>PayloadType</key>
+			<string>com.caresupport.ServerConnect</string>
+			<key>PayloadUUID</key>
+			<string>91FCB468-BC5A-4B91-BC4B-388E478268E5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>companyName</key>
+			<string>Nimbus Film ApS</string>
+			<key>helpURL</key>
+			<string>https://kb.caresupport.dk/kunder/nimbus-film/</string>
+			<key>logoUrl</key>
+			<string>https://kb.caresupport.dk/media/5wvkdkju/nimbus-logo.png</string>
+			<key>servers</key>
+			<array>
+				<dict>
+					<key>address</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>ldapUrl</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>method</key>
+					<string>smb</string>
+					<key>name</key>
+					<string>PROJEKTER - FILM OG TV</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>Åbner hele mappen</string>
+							<key>name</key>
+							<string>Hele mappen</string>
+							<key>path</key>
+							<string>01. PROJEKTER - FILM OG TV</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Til produktioner under udvikling og produktion</string>
+							<key>name</key>
+							<string>UDV OG PROD</string>
+							<key>path</key>
+							<string>01. PROJEKTER - FILM OG TV/01. UDV &amp; PROD</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Til produktionerne der produceres sammen med andre producenter</string>
+							<key>name</key>
+							<string>CO-PRODUKTIONER</string>
+							<key>path</key>
+							<string>01. PROJEKTER - FILM OG TV/02. CO-PRODUKTIONER (minor)</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Alle arkiverede produktionsfiler</string>
+							<key>name</key>
+							<string>KATALOG</string>
+							<key>path</key>
+							<string>01. PROJEKTER - FILM OG TV/04. KATALOG</string>
+						</dict>
+					</array>
+					<key>username</key>
+					<string>{{email}}</string>
+				</dict>
+				<dict>
+					<key>address</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>ldapUrl</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>method</key>
+					<string>smb</string>
+					<key>name</key>
+					<string>KONCERN</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>Administrations filer</string>
+							<key>name</key>
+							<string>ADMIN</string>
+							<key>path</key>
+							<string>06. KONCERN/01. ADMIN</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>JURA</string>
+							<key>path</key>
+							<string>06. KONCERN/02. JURA</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>LEDERMØDE</string>
+							<key>path</key>
+							<string>06. KONCERN/03. LEDERMØDE</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>ØKONOMI</string>
+							<key>path</key>
+							<string>06. KONCERN/04. ØKONOMI</string>
+						</dict>
+					</array>
+					<key>username</key>
+					<string>{{email}}</string>
+				</dict>
+				<dict>
+					<key>address</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>ldapUrl</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>method</key>
+					<string>smb</string>
+					<key>name</key>
+					<string>ØVRIGE</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>Indeholder skabeloner og logoer</string>
+							<key>name</key>
+							<string>STANDARDER</string>
+							<key>path</key>
+							<string>02. STANDARDER</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>PRODUCER INFO</string>
+							<key>path</key>
+							<string>03. PRODUCER INFO</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>SCANNEDE KONTRAKTER</string>
+							<key>path</key>
+							<string>04. SCANNEDE KONTRAKTER</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>HVIDBOG</string>
+							<key>path</key>
+							<string>05. HVIDBOG</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>MASTERARKIV</string>
+							<key>path</key>
+							<string>MASTERARKIV</string>
+						</dict>
+					</array>
+					<key>username</key>
+					<string>{{email}}</string>
+				</dict>
+				<dict>
+					<key>address</key>
+					<string>https://nimbusfilm.sharepoint.com</string>
+					<key>method</key>
+					<string>web</string>
+					<key>name</key>
+					<string>NimbusLister</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>PA-Lister</string>
+							<key>path</key>
+							<string>sites/NimbusLister-PA</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>Producer-Lister</string>
+							<key>path</key>
+							<string>sites/NimbusLister-Producer</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Arbejdsgiver administreret tidsregistreringsystem. Her kan du registrerer dine arbejdstimer, for at overholde EU's regulativ</string>
+							<key>name</key>
+							<string>Tidsregistrering</string>
+							<key>path</key>
+							<string>sites/tidsregistrering/Delte%20dokumenter</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>subtitle</key>
+			<string>Datalokationer til opbevaring og hentning af data</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>ServerConnect - Nimbus Film</string>
+	<key>PayloadIdentifier</key>
+	<string>dk.caresupport.7F67D7C2-5FD9-4C75-86FC-270AFF866215</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>19895FDC-F976-4AE7-A6B9-6840497DF275</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

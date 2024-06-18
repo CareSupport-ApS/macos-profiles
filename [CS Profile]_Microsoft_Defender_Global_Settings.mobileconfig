@@ -16,11 +16,41 @@
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>51FECC71-DDF0-4587-BB6D-B5F74A2A9934</string>
+			<string>E4F93390-6072-48F7-B7D0-AE39D82EC830</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
 			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.microsoft.dlp.daemon" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>Identifier</key>
+						<string>com.microsoft.dlp.daemon</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+				<key>BluetoothAlways</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.microsoft.dlp.agent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>Identifier</key>
+						<string>com.microsoft.dlp.agent</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
 				<key>SystemPolicyAllFiles</key>
 				<array>
 					<dict>
@@ -50,6 +80,18 @@
 						<string>bundleID</string>
 						<key>StaticCode</key>
 						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.microsoft.dlp.daemon" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>Identifier</key>
+						<string>com.microsoft.dlp.daemon</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
 					</dict>
 				</array>
 			</dict>
@@ -90,7 +132,7 @@
 			<key>PayloadType</key>
 			<string>com.microsoft.wdav</string>
 			<key>PayloadUUID</key>
-			<string>05EC3A83-0A4F-42C2-BF8B-52E032F5D918</string>
+			<string>9C0D8D77-B91D-4C14-B597-EEE8ACCAB8D3</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>antivirusEngine</key>
@@ -142,7 +184,7 @@
 			<key>userInterface</key>
 			<dict>
 				<key>consumerExperience</key>
-				<string>enabled</string>
+				<string>disabled</string>
 				<key>userInitiatedFeedback</key>
 				<string>disabled</string>
 			</dict>
@@ -171,42 +213,93 @@
 			<key>PayloadType</key>
 			<string>com.apple.webcontent-filter</string>
 			<key>PayloadUUID</key>
-			<string>78F09620-3833-4638-951F-5A346EC6A0D2</string>
+			<string>EB03A83D-8D25-470C-84DD-17DB32DBCB98</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PluginBundleID</key>
 			<string>com.microsoft.wdav</string>
 			<key>UserDefinedName</key>
 			<string>Microsoft Defender Content Filter</string>
-			<key>VendorConfig</key>
-			<dict/>
 		</dict>
 		<dict>
-			<key>AllowUserOverrides</key>
-			<false/>
-			<key>AllowedKernelExtensions</key>
-			<dict>
-				<key>AllowNonAdminUserApprovals</key>
-				<false/>
-				<key>AllowUserOverrides</key>
-				<false/>
-				<key>AllowedTeamIdentifiers</key>
-				<array>
-					<string>UBF8T346G9</string>
-				</array>
-			</dict>
-			<key>AllowedTeamIdentifiers</key>
+			<key>PayloadDisplayName</key>
+			<string>Service Management - Managed Login Items</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.servicemanagement.235DD777-727C-4B9F-8527-317306303ECE</string>
+			<key>PayloadType</key>
+			<string>com.apple.servicemanagement</string>
+			<key>PayloadUUID</key>
+			<string>235DD777-727C-4B9F-8527-317306303ECE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Rules</key>
 			<array>
-				<string>UBF8T346G9</string>
+				<dict>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>com.microsoft.fresno</string>
+				</dict>
+				<dict>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>com.microsoft.dlp</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>1</integer>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.microsoft.autoupdate2</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<false/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>1</integer>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.microsoft.wdav.tray</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<false/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
 			</array>
 			<key>PayloadDisplayName</key>
-			<string>Approved Kernel Extensions</string>
+			<string>Notifications</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.syspolicy.kernel-extension-policy.0DF28178-5BF7-4B6B-8A6A-55B84BBD0AD0</string>
+			<string>com.apple.notificationsettings.5F59C178-D487-43B2-BA6D-C779B7DB8148</string>
 			<key>PayloadType</key>
-			<string>com.apple.syspolicy.kernel-extension-policy</string>
+			<string>com.apple.notificationsettings</string>
 			<key>PayloadUUID</key>
-			<string>0DF28178-5BF7-4B6B-8A6A-55B84BBD0AD0</string>
+			<string>5F59C178-D487-43B2-BA6D-C779B7DB8148</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -216,15 +309,17 @@
 	<key>PayloadDisplayName</key>
 	<string>[CS Profile] - Microsoft Defender - Global Settings</string>
 	<key>PayloadIdentifier</key>
-	<string>EEFD0CE8-8E2D-420F-9ACE-448E3F8FD42B</string>
+	<string>dk.caresupport.defender-settings</string>
 	<key>PayloadOrganization</key>
 	<string>CareSupport ApS</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>674B9F49-5189-41DD-BB7B-536E91E654D6</string>
+	<string>1E7DFD01-9474-4D1E-A68D-E589904BC970</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

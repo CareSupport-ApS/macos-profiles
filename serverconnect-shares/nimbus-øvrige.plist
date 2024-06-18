@@ -28,5 +28,11 @@
     <key>path</key>
     <string>05. HVIDBOG</string>
 </dict>
+<dict>
+    <key>name</key>
+    <string>MASTERARKIV</string>
+    <key>path</key>
+    <string>MASTERARKIV</string>
+</dict>
 </array>
 </plist>
