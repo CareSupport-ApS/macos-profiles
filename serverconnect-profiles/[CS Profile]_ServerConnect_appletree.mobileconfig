@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>A0C5BD98-5358-4E1E-AD39-055918AF5E94</string>
+			<string>6ABBDAA8-26F2-4103-BBE5-170FB83308D5</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -25,48 +25,76 @@
 					<key>address</key>
 					<string>https://appletreeprod.sharepoint.com/sites/aeblerne</string>
 					<key>description</key>
-					<string>Til filer hvor man kan arbejde sammen på en gang</string>
+					<string>AppleTree Productions delte filer</string>
 					<key>method</key>
 					<string>web</string>
 					<key>mountPoint</key>
-					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–SFStudios</string>
+					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–AppleTreeProductionsApS</string>
 					<key>name</key>
 					<string>SharePoint</string>
 					<key>paths</key>
 					<array>
 						<dict>
 							<key>localPath</key>
-							<string>Administration - DK-Prod - Dokumenter</string>
+							<string>+Æblerne - APPLE TREE OPERATIONS</string>
 							<key>name</key>
-							<string>Hej</string>
+							<string>APPLE TREE OPERATIONS</string>
 							<key>path</key>
-							<string>Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2Ftest%26%201%202%203&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2Faeblerne%2FDelte%20dokumenter&amp;viewpath=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&amp;id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FAPPLE%20TREE%20OPERATIONS&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
 						</dict>
 						<dict>
-							<key>description</key>
-							<string>Diverse skabeloner, f.eks. mappestruktur til produktioner.</string>
 							<key>localPath</key>
-							<string>Skabeloner - DK-Prod - Dokumenter</string>
+							<string>+Æblerne - BUSINESS INTEL</string>
 							<key>name</key>
-							<string>Skabeloner</string>
+							<string>BUSINESS INTEL</string>
 							<key>path</key>
-							<string>sites/Skabeloner-DK-Prod/Dokumenter/Forms/AllItems.aspx</string>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2Faeblerne%2FDelte%20dokumenter&amp;viewpath=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&amp;id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FBUSINESS%20INTEL&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
 						</dict>
 						<dict>
-							<key>description</key>
-							<string>Arkiverede produktioner mm.</string>
 							<key>localPath</key>
-							<string>Arkiv - DK-Prod - Dokumenter</string>
+							<string>+Æblerne - COMPLETED PROD</string>
 							<key>name</key>
-							<string>Arkiv</string>
+							<string>COMPLETED PROD</string>
 							<key>path</key>
-							<string>sites/Arkiv-DK-Prod/Dokumenter/Forms/AllItems.aspx?viewpath=%2Fsites%2FArkiv%2DDK%2DProd%2FDokumenter%2FForms%2FAllItems%2Easpx</string>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2Faeblerne%2FDelte%20dokumenter&amp;viewpath=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&amp;id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FCOMPLETED%20PROD&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>+Æblerne - DEVELOPMENT</string>
+							<key>name</key>
+							<string>DEVELOPMENT</string>
+							<key>path</key>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2Faeblerne%2FDelte%20dokumenter&amp;viewpath=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&amp;id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FDEVELOPMENT&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>+Æblerne - FIRMAPOLITIK</string>
+							<key>name</key>
+							<string>FIRMAPOLITIK</string>
+							<key>path</key>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2Faeblerne%2FDelte%20dokumenter&amp;viewpath=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&amp;id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FFIRMAPOLITIK&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>+Æblerne - PRODUCTIONS</string>
+							<key>name</key>
+							<string>PRODUCTIONS</string>
+							<key>path</key>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2Faeblerne%2FDelte%20dokumenter&amp;viewpath=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&amp;id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FPRODUCTIONS&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>+Æblerne - TEMPLATES &amp; LOGOS</string>
+							<key>name</key>
+							<string>TEMPLATES &amp; LOGOS</string>
+							<key>path</key>
+							<string>Delte%20dokumenter/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2Faeblerne%2FDelte%20dokumenter&amp;viewpath=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&amp;id=%2Fsites%2Faeblerne%2FDelte%20dokumenter%2FTEMPLATES%20%26%20LOGOS&amp;viewid=62ab834e%2Db54a%2D4ade%2Da767%2D20c0ee900ae2</string>
 						</dict>
 					</array>
 				</dict>
 			</array>
 			<key>subtitle</key>
-			<string>Her finder du links til de forskellige dataplaceringer</string>
+			<string>Her finder du direkte adgang til mapper hos AppleTree Productions</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
@@ -78,7 +106,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>4DA94072-48A0-4D25-882B-568D8F53496A</string>
+	<string>9CBD2377-9020-4D5B-A5AA-05E70A125DAC</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
