@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>301A9DFB-B3D6-4FD6-9C5D-12F5435297F8</string>
+			<string>5B73C00C-55FA-4444-BAC0-44F54CAB4159</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -30,8 +30,6 @@
 					<string>smb</string>
 					<key>name</key>
 					<string>Miso Film DK</string>
-					<key>username</key>
-					<string>$EMAIL</string>
 					<key>paths</key>
 					<array>
 						<dict>
@@ -80,9 +78,11 @@
 							<key>name</key>
 							<string>SCANS</string>
 							<key>path</key>
-							<string>SCANS</string>
+							<string>Miso%20Film%20Denmark/SCANS</string>
 						</dict>
 					</array>
+					<key>username</key>
+					<string>$EMAIL</string>
 				</dict>
 				<dict>
 					<key>address</key>
@@ -148,7 +148,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>DDE4F6BD-9D13-4164-AB64-AC5CAE25BEF2</string>
+	<string>3DCCF2DD-E1A7-457F-AD32-FF8EF2AE3ECD</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
