@@ -25,11 +25,11 @@
 					<key>address</key>
 					<string>https://svenskfilmindustri.sharepoint.com</string>
 					<key>description</key>
-					<string>Mapperne er opdelt pr. producent. Resterende mapper kommer løbende i forbindelsen med migreringen</string>
+					<string>Mapperne er opdelt pr. producent. Resterende mapper kommer lÃ¸bende i forbindelsen med migreringen</string>
 					<key>method</key>
 					<string>web</string>
 					<key>mountPoint</key>
-					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–SFStudios</string>
+					<string>~/Library/CloudStorage/OneDrive-DeltebibliotekerâSFStudios</string>
 					<key>name</key>
 					<string>Produktioner</string>
 					<key>paths</key>
@@ -42,6 +42,46 @@
 							<key>path</key>
 							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FJR&amp;viewid=430c32d1%2Dd17d%2D461e%2D97ff%2D52b298a6a397</string>
 						</dict>
+							<dict>
+							<key>localPath</key>
+							<string>Produktioner - DK-Prod - SD</string>
+							<key>name</key>
+							<string>Senia Dremstrup</string>
+							<key>path</key>
+							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FSD</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>Produktioner - DK-Prod - MP</string>
+							<key>name</key>
+							<string>Mette Marie Pedersen</string>
+							<key>path</key>
+							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FMP</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>Produktioner - DK-Prod - MD</string>
+							<key>name</key>
+							<string>Marcella Dichmann</string>
+							<key>path</key>
+							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FMD</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>Produktioner - DK-Prod - LBR</string>
+							<key>name</key>
+							<string>Lars Rahbek</string>
+							<key>path</key>
+							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FLBR</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>Produktioner - DK-Prod - CS</string>
+							<key>name</key>
+							<string>Caroline Schlüter</string>
+							<key>path</key>
+							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FCS</string>
+						</dict>
 					</array>
 				</dict>
 				<dict>
@@ -50,9 +90,9 @@
 					<key>method</key>
 					<string>web</string>
 					<key>mountPoint</key>
-					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–SFStudios</string>
+					<string>~/Library/CloudStorage/OneDrive-DeltebibliotekerâSFStudios</string>
 					<key>name</key>
-					<string>Øvrige filer</string>
+					<string>Ãvrige filer</string>
 					<key>paths</key>
 					<array>
 						<dict>
@@ -69,9 +109,19 @@
 							<key>localPath</key>
 							<string>Skabeloner - DK-Prod - Dokumenter</string>
 							<key>name</key>
-							<string>Administration</string>
+							<string>Skabeloner</string>
 							<key>path</key>
 							<string>sites/Skabeloner-DK-Prod/Dokumenter/Forms/AllItems.aspx</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Til Post-produktion medarbejdere</string>
+							<key>localPath</key>
+							<string>Post-Production - DK-Prod - Dokumenter</string>
+							<key>name</key>
+							<string>Post-Produktion</string>
+							<key>path</key>
+							<string>sites/Post-Production-DK-Prod/Dokumenter</string>
 						</dict>
 						<dict>
 							<key>description</key>
@@ -149,7 +199,7 @@
 							<key>name</key>
 							<string>FTP</string>
 							<key>path</key>
-							<string>remotes/homes/</string>
+							<string>homes</string>
 						</dict>
 						<dict>
 							<key>name</key>
@@ -163,7 +213,7 @@
 				</dict>
 			</array>
 			<key>subtitle</key>
-			<string>Data tilhørende SF Studios opbevares i nedenstående placeringer!</string>
+			<string>Data tilhÃ¸rende SF Studios opbevares i nedenstÃ¥ende placeringer!</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>

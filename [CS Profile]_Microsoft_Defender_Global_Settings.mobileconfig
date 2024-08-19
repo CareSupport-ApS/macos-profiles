@@ -179,7 +179,7 @@
 			<key>tamperProtection</key>
 			<dict>
 				<key>enforcementLevel</key>
-				<string>block</string>
+				<string>{{defender_tamper_protection}}</string>
 			</dict>
 			<key>userInterface</key>
 			<dict>

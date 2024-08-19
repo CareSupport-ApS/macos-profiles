@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ExtensionInstallForcelist</key>
+			<array>
+				<string>ppnbnpeolgkicgegkbkbjmhlideopiji</string>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Google Chrome</string>
+			<key>PayloadIdentifier</key>
+			<string>com.google.Chrome.2CF1F296-06EA-458B-8887-99DED123BE8C</string>
+			<key>PayloadType</key>
+			<string>com.google.Chrome</string>
+			<key>PayloadUUID</key>
+			<string>2CF1F296-06EA-458B-8887-99DED123BE8C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>[CS Profile] - Chrome Extension (Microsoft SSO)</string>
+	<key>PayloadIdentifier</key>
+	<string>dk.caresupport.B788F97C-675F-4365-8AD4-3C0571C2E9C7</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B788F97C-675F-4365-8AD4-3C0571C2E9C7</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
