@@ -10,15 +10,13 @@
 			<key>PayloadIdentifier</key>
 			<string>com.apple.mail.9459E332-B08B-4440-A03B-A54FE5BBE79E</string>
 			<key>PayloadType</key>
-			<string>com.apple.mail.managed</string>
+			<string>group.com.apple.mail</string>
 			<key>PayloadUUID</key>
 			<string>A8AF127F-6A24-40EF-9FFB-5662C99D5602</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			
-			<key>DisableURLLoading</key>
-			<false/>
-			
+			<key>LoadRemoteContent-v2</key>
+			<integer>13</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
