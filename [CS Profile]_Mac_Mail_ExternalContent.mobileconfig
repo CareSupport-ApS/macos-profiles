@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Mac Mail External Content</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mail.9459E332-B08B-4440-A03B-A54FE5BBE79E</string>
+			<key>PayloadType</key>
+			<string>com.apple.mail.managed</string>
+			<key>PayloadUUID</key>
+			<string>A8AF127F-6A24-40EF-9FFB-5662C99D5602</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			
+			<key>DisableURLLoading</key>
+			<false/>
+			
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>[CS Profile] - Mac Mail External Content</string>
+	<key>PayloadIdentifier</key>
+	<string>dk.caresupport.B9C5FD21-6323-4B82-8983-E07E83819777</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2997449F-2751-4FE6-BA93-6EBA13D69692</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
