@@ -25,11 +25,11 @@
 					<key>address</key>
 					<string>https://svenskfilmindustri.sharepoint.com</string>
 					<key>description</key>
-					<string>Mapperne er opdelt pr. producent. Resterende mapper kommer lÃ¸bende i forbindelsen med migreringen</string>
+					<string>Mapperne er opdelt pr. producent. Resterende mapper kommer løbende i forbindelsen med migreringen</string>
 					<key>method</key>
 					<string>web</string>
 					<key>mountPoint</key>
-					<string>~/Library/CloudStorage/OneDrive-DeltebibliotekerâSFStudios</string>
+					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–SFStudios</string>
 					<key>name</key>
 					<string>Produktioner</string>
 					<key>paths</key>
@@ -40,7 +40,7 @@
 							<key>name</key>
 							<string>Julie Rix Bomholt</string>
 							<key>path</key>
-							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FJR&amp;viewid=430c32d1%2Dd17d%2D461e%2D97ff%2D52b298a6a397</string>
+							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FJR</string>
 						</dict>
 							<dict>
 							<key>localPath</key>
@@ -213,7 +213,7 @@
 				</dict>
 			</array>
 			<key>subtitle</key>
-			<string>Data tilhÃ¸rende SF Studios opbevares i nedenstÃ¥ende placeringer!</string>
+			<string>Data tilhørende SF Studios opbevares i nedenstående placeringer!</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
