@@ -6,11 +6,11 @@
 	<array>
 		<dict>
 			<key>PayloadIdentifier</key>
-			<string>com.caresupport.ServerConnect.8920CA59-7B3E-4813-9AD4-2AAF61AC5395</string>
+			<string>com.caresupport.ServerConnect.B4329991-6908-4FBD-BC2E-3C063BCCC52F</string>
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>4A645D3D-8F50-421D-BDA0-0F341D299066</string>
+			<string>5B73C00C-55FA-4444-BAC0-44F54CAB4159</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ldapUrl</key>
@@ -74,7 +74,6 @@
 					<key>paths</key>
 					<array>
 						<dict>
-							<key>description</key>
 							<string>Den danske mappe på serveren (kræver særlig adgang og vpn connection)</string>
 							<key>name</key>
 							<string>Miso Film Denmark</string>
@@ -89,7 +88,7 @@
 							<key>path</key>
 							<string>Miso%20Film%20Sweden</string>
 						</dict>
-					</array>
+						</array>
 					<key>username</key>
 					<string>$EMAIL</string>
 				</dict>
@@ -99,15 +98,15 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Miso Film ServerConnect-NO</string>
+	<string>ServerConnect - Miso Film NO</string>
 	<key>PayloadIdentifier</key>
-	<string>dk.caresupport.A9864432-B50B-430D-996A-6E4F9571D0AC</string>
+	<string>dk.caresupport.7F67D7C2-5FD9-4C75-86FC-270AFF866215</string>
 	<key>PayloadOrganization</key>
 	<string>CareSupport ApS</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>20FF29E9-15D0-4BEC-9637-17BC8BEE71C6</string>
+	<string>3DCCF2DD-E1A7-457F-AD32-FF8EF2AE3ECD</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
