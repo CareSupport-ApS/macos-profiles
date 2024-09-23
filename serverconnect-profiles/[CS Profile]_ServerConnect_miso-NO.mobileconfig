@@ -13,6 +13,10 @@
 			<string>4A645D3D-8F50-421D-BDA0-0F341D299066</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>ldapUrl</key>
+			<string>server.misofilm.dk</string>
+			<key>requiresLdapBind</key>
+			<true/>
 			<key>servers</key>
 			<array>
 				<dict>
@@ -22,31 +26,29 @@
 					<string>smb</string>
 					<key>name</key>
 					<string>Miso Film NO</string>
-					<key>username</key>
-					<string>$EMAIL</string>
 					<key>paths</key>
 					<array>
 						<dict>
-							<key>name</key>
-							<string>Norge</string>
 							<key>description</key>
 							<string>Den Norske mappe. </string>
+							<key>name</key>
+							<string>Norge</string>
 							<key>path</key>
 							<string>Miso%20Film%20Norway</string>
 						</dict>
 						<dict>
-							<key>name</key>
-							<string>IN PRODUKTION</string>
 							<key>description</key>
 							<string>Produktioner der er i produktionsfasen</string>
+							<key>name</key>
+							<string>IN PRODUKTION</string>
 							<key>path</key>
 							<string>Miso%20Film%20Norway/02.%20IN%20PRODUCTION</string>
 						</dict>
 						<dict>
-							<key>name</key>
-							<string>IN DEVELOPMENT</string>
 							<key>description</key>
 							<string>Produktioner under udvikling</string>
+							<key>name</key>
+							<string>IN DEVELOPMENT</string>
 							<key>path</key>
 							<string>Miso%20Film%20Norway/01.%20IN%20DEVELOPMENT</string>
 						</dict>
@@ -59,6 +61,8 @@
 							<string>Miso%20Film%20Denmark/00.%20SHARED</string>
 						</dict>
 					</array>
+					<key>username</key>
+					<string>$EMAIL</string>
 				</dict>
 				<dict>
 					<key>address</key>
@@ -66,40 +70,36 @@
 					<key>method</key>
 					<string>smb</string>
 					<key>name</key>
-          <string>Miso Film DK &amp; SE</string>
-          <key>username</key>
-          <string>$EMAIL</string>
+					<string>Miso Film DK &amp; SE</string>
 					<key>paths</key>
 					<array>
 						<dict>
-							<key>name</key>
-							<string>Miso Film Denmark</string>
 							<key>description</key>
 							<string>Den danske mappe på serveren (kræver særlig adgang og vpn connection)</string>
+							<key>name</key>
+							<string>Miso Film Denmark</string>
 							<key>path</key>
 							<string>Miso%20Film%20Denmark</string>
 						</dict>
 						<dict>
-							<key>name</key>
-							<string>Miso Film Sweden</string>
 							<key>description</key>
 							<string>Den svenske mappe på serveren (kræver særlig adgang og vpn connection)</string>
+							<key>name</key>
+							<string>Miso Film Sweden</string>
 							<key>path</key>
 							<string>Miso%20Film%20Sweden</string>
 						</dict>
 					</array>
+					<key>username</key>
+					<string>$EMAIL</string>
 				</dict>
 			</array>
-      <key>uptimeDays</key>
-      <integer>7</integer>
-      <key>requiresLdapBind</key>
-      <true/>
-      <key>ldapUrl</key>
-      <string>server.misofilm.dk</string>
-      </dict>
+			<key>uptimeDays</key>
+			<integer>7</integer>
+		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Miso Film ServerConnect-SE</string>
+	<string>Miso Film ServerConnect-NO</string>
 	<key>PayloadIdentifier</key>
 	<string>dk.caresupport.A9864432-B50B-430D-996A-6E4F9571D0AC</string>
 	<key>PayloadOrganization</key>
