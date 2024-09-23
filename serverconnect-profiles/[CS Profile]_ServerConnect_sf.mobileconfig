@@ -70,7 +70,7 @@
 							<key>localPath</key>
 							<string>Produktioner - DK-Prod - LBR</string>
 							<key>name</key>
-							<string>Lars Rahbek</string>
+							<string>Lars Bredo Rahbek</string>
 							<key>path</key>
 							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FLBR</string>
 						</dict>
@@ -82,6 +82,14 @@
 							<key>path</key>
 							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FCS</string>
 						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>Produktioner - DK-Prod - MM</string>
+							<key>name</key>
+							<string>Mia Myralf</string>
+							<key>path</key>
+							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FMM</string>
+						</dict>
 					</array>
 				</dict>
 				<dict>
@@ -90,9 +98,9 @@
 					<key>method</key>
 					<string>web</string>
 					<key>mountPoint</key>
-					<string>~/Library/CloudStorage/OneDrive-DeltebibliotekerâSFStudios</string>
+					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–SFStudios</string>
 					<key>name</key>
-					<string>Ãvrige filer</string>
+					<string>Øvrige filer</string>
 					<key>paths</key>
 					<array>
 						<dict>
@@ -172,7 +180,7 @@
 						</dict>
 					</array>
 					<key>username</key>
-					<string>{{userprincipalname}}</string>
+					<string>emil.lind@sfstudios.dk</string>
 				</dict>
 				<dict>
 					<key>address</key>

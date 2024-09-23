@@ -142,6 +142,8 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>DisableFirstDeleteDialog</key>
+			<integer>1</integer>
 			<key>DefaultToBusinessFRE</key>
 			<true/>
 			<key>DisablePersonalSync</key>
