@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>description</key>
+		<string>Den norske mappe. </string>
+		<key>name</key>
+		<string>Norge</string>
+		<key>path</key>
+		<string>Miso%20Film%20Norway</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Produktioner der er i produktionsfasen</string>
+		<key>name</key>
+		<string>IN PRODUKTION</string>
+		<key>path</key>
+		<string>Miso%20Film%20Norway/02.%20IN%20PRODUCTION</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Produktioner under udvikling</string>
+		<key>name</key>
+		<string>IN DEVELOPMENT</string>
+		<key>path</key>
+		<string>Miso%20Film%20Norway/01.%20IN%20DEVELOPMENT</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Mappen vi bruger til at dele indhold på tværs af landende</string>
+		<key>name</key>
+		<string>00. SHARED</string>
+		<key>path</key>
+		<string>Miso%20Film%20Denmark/00.%20SHARED</string>
+	</dict>
+</array>
+</plist>
