@@ -6,26 +6,30 @@
 	<array>
 		<dict>
 			<key>PayloadIdentifier</key>
-			<string>com.caresupport.ServerConnect.8920CA59-7B3E-4813-9AD4-2AAF61AC5395</string>
+			<string>com.caresupport.ServerConnect.B4329991-6908-4FBD-BC2E-3C063BCCC52F</string>
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>4A645D3D-8F50-421D-BDA0-0F341D299066</string>
+			<string>5B73C00C-55FA-4444-BAC0-44F54CAB4159</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>ldapUrl</key>
-			<string>server.misofilm.dk</string>
-			<key>requiresLdapBind</key>
-			<true/>
+			<key>companyName</key>
+			<string>Miso Film ApS</string>
+			<key>helpURL</key>
+			<string>https://kb.caresupport.dk/kunder/miso-film/</string>
+			<key>logoUrl</key>
+			<string>https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8109726-9708-48ac-b7ae-68e564aa6843/df0erhv-8a3da1e8-70e8-48d0-9e95-e5d71ba5d6f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4MTA5NzI2LTk3MDgtNDhhYy1iN2FlLTY4ZTU2NGFhNjg0M1wvZGYwZXJodi04YTNkYTFlOC03MGU4LTQ4ZDAtOWU5NS1lNWQ3MWJhNWQ2ZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qxlqoDf95NK64-mciUUZTSLIL8s9hIyiHDSGNNtUYtw</string>
 			<key>servers</key>
 			<array>
 				<dict>
 					<key>address</key>
 					<string>192.168.1.75</string>
+					<key>ldapUrl</key>
+					<string>server.misofilm.dk</string>
 					<key>method</key>
 					<string>smb</string>
 					<key>name</key>
-					<string>Miso Film SE</string>
+					<string>Miso Film DK</string>
 					<key>paths</key>
 					<array>
 						<dict>
@@ -51,7 +55,6 @@
 							<string>IN DEVELOPMENT</string>
 							<key>path</key>
 							<string>Miso%20Film%20Sweden/01.%20IN%20DEVELOPMENT</string>
-						</dict>
 						<dict>
 							<key>description</key>
 							<string>Mappen vi bruger til at dele indhold på tværs af landende</string>
@@ -60,12 +63,15 @@
 							<key>path</key>
 							<string>Miso%20Film%20Denmark/00.%20SHARED</string>
 						</dict>
+						</dict>
 					</array>
 					<key>username</key>
 					<string>$EMAIL</string>
 				</dict>
 				<dict>
 					<key>address</key>
+					<string>server.misofilm.dk</string>
+					<key>ldapUrl</key>
 					<string>server.misofilm.dk</string>
 					<key>method</key>
 					<string>smb</string>
@@ -75,7 +81,7 @@
 					<array>
 						<dict>
 							<key>description</key>
-							<string>Den danske mappe på serveren (kræver særlig adgang og vpn connection)</string>
+							<string>Den danske mappe på serveren (kræver vpn og særlig adgang)</string>
 							<key>name</key>
 							<string>Miso Film Denmark</string>
 							<key>path</key>
@@ -83,7 +89,7 @@
 						</dict>
 						<dict>
 							<key>description</key>
-							<string>Den norske mappe på serveren (kræver særlig adgang og vpn connection)</string>
+							<string>Den norske mappe på serveren (kræver vpn og særlig adgang)</string>
 							<key>name</key>
 							<string>Miso Film Norway</string>
 							<key>path</key>
@@ -93,21 +99,21 @@
 					<key>username</key>
 					<string>$EMAIL</string>
 				</dict>
+				<dict>
+				</dict>
 			</array>
-			<key>uptimeDays</key>
-			<integer>7</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Miso Film ServerConnect-SE</string>
+	<string>ServerConnect - Miso Film</string>
 	<key>PayloadIdentifier</key>
-	<string>dk.caresupport.A9864432-B50B-430D-996A-6E4F9571D0AC</string>
+	<string>dk.caresupport.7F67D7C2-5FD9-4C75-86FC-270AFF866215</string>
 	<key>PayloadOrganization</key>
 	<string>CareSupport ApS</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>20FF29E9-15D0-4BEC-9637-17BC8BEE71C6</string>
+	<string>3DCCF2DD-E1A7-457F-AD32-FF8EF2AE3ECD</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
