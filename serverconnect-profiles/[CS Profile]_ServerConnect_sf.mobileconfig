@@ -90,6 +90,14 @@
 							<key>path</key>
 							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FMM</string>
 						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>Produktioner - DK-Prod - RH</string>
+							<key>name</key>
+							<string>Rasmus Heide</string>
+							<key>path</key>
+							<string>sites/produktioner-dk-prod/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fproduktioner%2Ddk%2Dprod%2FDelade%20dokument%2FRH</string>
+						</dict>
 					</array>
 				</dict>
 				<dict>
