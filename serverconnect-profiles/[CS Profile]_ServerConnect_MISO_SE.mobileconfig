@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>5B73C00C-55FA-4444-BAC0-44F54CAB4159</string>
+			<string>F05B52B4-1800-46D4-BB6A-597D4BA740B2</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -29,7 +29,7 @@
 					<key>method</key>
 					<string>smb</string>
 					<key>name</key>
-					<string>Miso Film DK</string>
+					<string>Miso Film SE</string>
 					<key>paths</key>
 					<array>
 						<dict>
@@ -55,6 +55,7 @@
 							<string>IN DEVELOPMENT</string>
 							<key>path</key>
 							<string>Miso%20Film%20Sweden/01.%20IN%20DEVELOPMENT</string>
+						</dict>
 						<dict>
 							<key>description</key>
 							<string>Mappen vi bruger til at dele indhold på tværs af landende</string>
@@ -62,7 +63,6 @@
 							<string>00. SHARED</string>
 							<key>path</key>
 							<string>Miso%20Film%20Denmark/00.%20SHARED</string>
-						</dict>
 						</dict>
 					</array>
 					<key>username</key>
@@ -99,13 +99,11 @@
 					<key>username</key>
 					<string>$EMAIL</string>
 				</dict>
-				<dict>
-				</dict>
 			</array>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>ServerConnect - Miso Film</string>
+	<string>[CS Profile] - ServerConnect SE</string>
 	<key>PayloadIdentifier</key>
 	<string>dk.caresupport.7F67D7C2-5FD9-4C75-86FC-270AFF866215</string>
 	<key>PayloadOrganization</key>
@@ -113,7 +111,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>3DCCF2DD-E1A7-457F-AD32-FF8EF2AE3ECD</string>
+	<string>843F297D-0112-49B7-84AC-317BC0591BBF</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
