@@ -10,7 +10,7 @@
 			<key>PayloadType</key>
 			<string>com.caresupport.ServerConnect</string>
 			<key>PayloadUUID</key>
-			<string>F05B52B4-1800-46D4-BB6A-597D4BA740B2</string>
+			<string>83AD9F85-63F3-4EC7-8EDF-1B11BD20E73F</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
@@ -24,19 +24,21 @@
 				<dict>
 					<key>address</key>
 					<string>server.misofilm.dk</string>
+					<key>ldapUrl</key>
+					<string>server.misofilm.dk</string>
 					<key>method</key>
 					<string>smb</string>
 					<key>name</key>
-					<string>Miso Film SE</string>
+					<string>Miso Film NO</string>
 					<key>paths</key>
 					<array>
 						<dict>
 							<key>description</key>
-							<string>Den svenske mappe.</string>
+							<string>Den norske mappe. </string>
 							<key>name</key>
-							<string>Sverige</string>
+							<string>Norge</string>
 							<key>path</key>
-							<string>Miso Film Sweden</string>
+							<string>Miso%20Film%20Norway</string>
 						</dict>
 						<dict>
 							<key>description</key>
@@ -44,7 +46,7 @@
 							<key>name</key>
 							<string>IN PRODUKTION</string>
 							<key>path</key>
-							<string>Miso Film Sweden/02. IN PRODUCTION</string>
+							<string>Miso%20Film%20Norway/02.%20IN%20PRODUCTION</string>
 						</dict>
 						<dict>
 							<key>description</key>
@@ -52,7 +54,7 @@
 							<key>name</key>
 							<string>IN DEVELOPMENT</string>
 							<key>path</key>
-							<string>Miso Film Sweden/01. IN DEVELOPMENT</string>
+							<string>Miso%20Film%20Norway/01.%20IN%20DEVELOPMENT</string>
 						</dict>
 						<dict>
 							<key>description</key>
@@ -74,7 +76,7 @@
 					<key>method</key>
 					<string>smb</string>
 					<key>name</key>
-					<string>Miso Film DK &amp; NO</string>
+					<string>Miso Film DK &amp; SE</string>
 					<key>paths</key>
 					<array>
 						<dict>
@@ -87,11 +89,11 @@
 						</dict>
 						<dict>
 							<key>description</key>
-							<string>Den norske mappe på serveren (kræver vpn og særlig adgang)</string>
+							<string>Den svenske mappe på serveren (kræver vpn og særlig adgang)</string>
 							<key>name</key>
-							<string>Miso Film Norway</string>
+							<string>Miso Film Sweden</string>
 							<key>path</key>
-							<string>Miso%20Film%20Norway</string>
+							<string>Miso%20Film%20Sweden</string>
 						</dict>
 					</array>
 					<key>username</key>
@@ -101,7 +103,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>[CS Profile] - ServerConnect SE</string>
+	<string>[CSProfile] - ServerConnect NO</string>
 	<key>PayloadIdentifier</key>
 	<string>dk.caresupport.7F67D7C2-5FD9-4C75-86FC-270AFF866215</string>
 	<key>PayloadOrganization</key>
@@ -109,7 +111,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>843F297D-0112-49B7-84AC-317BC0591BBF</string>
+	<string>B277E4AF-35F3-4082-A050-28FE3BA1116B</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

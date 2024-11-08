@@ -132,7 +132,7 @@
 			<key>PayloadType</key>
 			<string>com.microsoft.wdav</string>
 			<key>PayloadUUID</key>
-			<string>9C0D8D77-B91D-4C14-B597-EEE8ACCAB8D3</string>
+			<string>E3C2E4E5-6EAD-4FF7-9906-09E1CA9BE414</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>antivirusEngine</key>
@@ -175,6 +175,50 @@
 				<string>optional</string>
 				<key>enabled</key>
 				<true/>
+			</dict>
+			<key>features</key>
+			<dict>
+				<key>scheduledScan</key>
+				<string>enabled</string>
+			</dict>
+			<key>scheduledScan</key>
+			<dict>
+				<key>dailyConfiguration</key>
+				<dict>
+					<key>features</key>
+					<dict>
+						<key>scheduledScan</key>
+						<string>enabled</string>
+					</dict>
+					<key>scheduledScan</key>
+					<dict>
+						<key>dailyConfiguration</key>
+						<dict>
+							<key>interval</key>
+							<string>1</string>
+							<key>timeOfDay</key>
+							<integer>885</integer>
+						</dict>
+						<key>ignoreExclusions</key>
+						<true/>
+						<key>lowPriorityScheduledScan</key>
+						<true/>
+						<key>weeklyConfiguration</key>
+						<dict>
+							<key>dayOfWeek</key>
+							<integer>4</integer>
+							<key>scanType</key>
+							<string>full</string>
+							<key>timeOfDay</key>
+							<integer>880</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>weeklyConfiguration</key>
+				<dict>
+					<key>scanType</key>
+					<string>quick</string>
+				</dict>
 			</dict>
 			<key>tamperProtection</key>
 			<dict>
@@ -319,7 +363,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>1E7DFD01-9474-4D1E-A68D-E589904BC970</string>
+	<string>68C6D77D-5E6B-4290-952C-22020277E0AC</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
