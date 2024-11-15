@@ -155,7 +155,7 @@
 							<key>name</key>
 							<string>Arkiv</string>
 							<key>path</key>
-							<string>sites/Arkiv-DK-Prod/Dokumenter/Forms/AllItems.aspx?viewpath=%2Fsites%2FArkiv%2DDK%2DProd%2FDokumenter%2FForms%2FAllItems%2Easpx</string>
+							<string>sites/Arkiv-DK-Prod/Delte%20dokumenter</string>
 						</dict>
 					</array>
 				</dict>
@@ -195,45 +195,6 @@
 					</array>
 					<key>username</key>
 					<string>{{userprincipalname}}</string>
-				</dict>
-				<dict>
-					<key>address</key>
-					<string>LBSFWPIFRFS01.ADS.BONNIERGROUP.COM</string>
-					<key>description</key>
-					<string>Denne filserver bliver snart nedlagt!</string>
-					<key>method</key>
-					<string>smb</string>
-					<key>name</key>
-					<string>Filserver</string>
-					<key>paths</key>
-					<array>
-						<dict>
-							<key>description</key>
-							<string>Produktionsmappen</string>
-							<key>name</key>
-							<string>DKProd</string>
-							<key>path</key>
-							<string>DKProd/</string>
-						</dict>
-						<dict>
-							<key>description</key>
-							<string>Administrations mappen</string>
-							<key>name</key>
-							<string>Administration</string>
-							<key>path</key>
-							<string>DKProd/Administration</string>
-						</dict>
-						<dict>
-							<key>description</key>
-							<string>Praktikant mappen</string>
-							<key>name</key>
-							<string>Praktikanter</string>
-							<key>path</key>
-							<string>DKProd/Administration/Praktikanter</string>
-						</dict>
-					</array>
-					<key>username</key>
-					<string>emil.lind@sfstudios.dk</string>
 				</dict>
 			</array>
 			<key>subtitle</key>

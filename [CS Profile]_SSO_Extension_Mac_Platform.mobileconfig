@@ -29,7 +29,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.extensiblesso</string>
 			<key>PayloadUUID</key>
-			<string>1C40F1A1-D55C-4B12-9181-6690512CABCF</string>
+			<string>B488B8DD-9919-4C5A-A8F0-B00173D1C8DA</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PlatformSSO</key>
@@ -39,7 +39,7 @@
 				<key>EnableCreateUserAtLogin</key>
 				<true/>
 				<key>NewUserAuthorizationMode</key>
-				<string>Standard</string>
+				<string>Admin</string>
 				<key>TokenToUserMapping</key>
 				<dict>
 					<key>AccountName</key>
@@ -50,10 +50,8 @@
 				<key>UseSharedDeviceKeys</key>
 				<true/>
 				<key>UserAuthorizationMode</key>
-				<string>Standard</string>
+				<string>Admin</string>
 			</dict>
-			<key>RegistrationToken</key>
-			<string>{{DEVICEREGISTRATION}}</string>
 			<key>ScreenLockedBehavior</key>
 			<string>DoNotHandle</string>
 			<key>TeamIdentifier</key>
@@ -70,25 +68,9 @@
 				<string>https://login-us.microsoftonline.com</string>
 			</array>
 		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>System Preferences: Security</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.preference.security.3A0CEDA3-AC4E-4BE1-8518-FDB5D5129B0C</string>
-			<key>PayloadType</key>
-			<string>com.apple.preference.security</string>
-			<key>PayloadUUID</key>
-			<string>3A0CEDA3-AC4E-4BE1-8518-FDB5D5129B0C</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>dontAllowLockMessageUI</key>
-			<true/>
-			<key>dontAllowPasswordResetUI</key>
-			<true/>
-		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>[CS Profile] - SSO Mac Extension Platform</string>
+	<string>Global - Platform SSO - Admin</string>
 	<key>PayloadIdentifier</key>
 	<string>com.caresupport.ssomacplatform</string>
 	<key>PayloadOrganization</key>
@@ -96,7 +78,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>A402752B-F7E4-4B73-96F8-F5906989E7FB</string>
+	<string>C790C0EF-28A0-449B-A0D1-2804A906611F</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

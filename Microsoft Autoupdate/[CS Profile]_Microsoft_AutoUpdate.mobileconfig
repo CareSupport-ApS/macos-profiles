@@ -58,6 +58,13 @@
 					<key>LCID</key>
 					<integer>1033</integer>
 				</dict>
+				<key>/Applications/Microsoft Remote Desktop.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSRD10</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
 				<key>/Applications/Microsoft Teams.app</key>
 				<dict>
 					<key>Application ID</key>
@@ -79,6 +86,13 @@
 					<key>LCID</key>
 					<integer>1033</integer>
 				</dict>
+				<key>/Applications/Windows App.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSRD10</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
 				<key>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</key>
 				<dict>
 					<key>Application ID</key>
@@ -94,7 +108,9 @@
 			<key>EnableCheckForUpdatesButton</key>
 			<true/>
 			<key>HowToCheck</key>
-			<string>AutomaticCheck</string>
+			<string>AutomaticDownload</string>
+			<key>IgnoreUIOpenAfterInstall</key>
+			<true/>
 			<key>PayloadDisplayName</key>
 			<string>Microsoft AutoUpdate</string>
 			<key>PayloadIdentifier</key>
@@ -102,13 +118,13 @@
 			<key>PayloadType</key>
 			<string>com.microsoft.autoupdate2</string>
 			<key>PayloadUUID</key>
-			<string>BFCD9D52-EE60-441F-9C96-EC433D88B669</string>
+			<string>B202DBDB-DCC1-4ED8-985F-518C3CA9A8BF</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>StartDaemonOnAppLaunch</key>
 			<true/>
 			<key>UpdateDeadline.DaysBeforeForcedQuit</key>
-			<integer>14</integer>
+			<integer>12</integer>
 			<key>UpdateDeadline.FinalCountDown</key>
 			<integer>120</integer>
 			<key>UpdateDeadline.StartAutomaticUpdates</key>
@@ -126,7 +142,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>2E7B03A7-0CBB-40C3-8464-71F48695954D</string>
+	<string>909EDDE2-6E67-4E88-9E31-458D1ED0DA88</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

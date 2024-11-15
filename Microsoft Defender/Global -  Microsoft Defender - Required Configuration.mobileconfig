@@ -107,6 +107,14 @@
 					<string>com.microsoft.wdav.netext</string>
 				</array>
 			</dict>
+			<key>NonRemovableSystemExtensions</key>
+			<dict>
+				<key>UBF8T346G9</key>
+				<array>
+					<string>com.microsoft.wdav.epsext</string>
+					<string>com.microsoft.wdav.netext</string>
+				</array>
+			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures System Extensions Policy</string>
 			<key>PayloadDisplayName</key>
@@ -121,117 +129,6 @@
 			<string>43E47E66-A291-4D93-A1DC-4B2912E23C79</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>PayloadDescription</key>
-			<string>Configures Microsoft Defender for Endpoint settings</string>
-			<key>PayloadDisplayName</key>
-			<string>Custom Settings</string>
-			<key>PayloadIdentifier</key>
-			<string>05EC3A83-0A4F-42C2-BF8B-52E032F5D918</string>
-			<key>PayloadType</key>
-			<string>com.microsoft.wdav</string>
-			<key>PayloadUUID</key>
-			<string>E3C2E4E5-6EAD-4FF7-9906-09E1CA9BE414</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>antivirusEngine</key>
-			<dict>
-				<key>enforcementLevel</key>
-				<string>real_time</string>
-				<key>exclusions</key>
-				<array/>
-				<key>exclusionsMergePolicy</key>
-				<string>merge</string>
-				<key>scanAfterDefinitionUpdate</key>
-				<true/>
-				<key>threatTypeSettings</key>
-				<array>
-					<dict>
-						<key>key</key>
-						<string>potentially_unwanted_application</string>
-						<key>value</key>
-						<string>block</string>
-					</dict>
-					<dict>
-						<key>key</key>
-						<string>archive_bomb</string>
-						<key>value</key>
-						<string>audit</string>
-					</dict>
-				</array>
-				<key>threatTypeSettingsMergePolicy</key>
-				<string>merge</string>
-			</dict>
-			<key>cloudService</key>
-			<dict>
-				<key>automaticDefinitionUpdateEnabled</key>
-				<true/>
-				<key>automaticSampleSubmission</key>
-				<true/>
-				<key>cloudBlockLevel</key>
-				<string>normal</string>
-				<key>diagnosticLevel</key>
-				<string>optional</string>
-				<key>enabled</key>
-				<true/>
-			</dict>
-			<key>features</key>
-			<dict>
-				<key>scheduledScan</key>
-				<string>enabled</string>
-			</dict>
-			<key>scheduledScan</key>
-			<dict>
-				<key>dailyConfiguration</key>
-				<dict>
-					<key>features</key>
-					<dict>
-						<key>scheduledScan</key>
-						<string>enabled</string>
-					</dict>
-					<key>scheduledScan</key>
-					<dict>
-						<key>dailyConfiguration</key>
-						<dict>
-							<key>interval</key>
-							<string>1</string>
-							<key>timeOfDay</key>
-							<integer>885</integer>
-						</dict>
-						<key>ignoreExclusions</key>
-						<true/>
-						<key>lowPriorityScheduledScan</key>
-						<true/>
-						<key>weeklyConfiguration</key>
-						<dict>
-							<key>dayOfWeek</key>
-							<integer>4</integer>
-							<key>scanType</key>
-							<string>full</string>
-							<key>timeOfDay</key>
-							<integer>880</integer>
-						</dict>
-					</dict>
-				</dict>
-				<key>weeklyConfiguration</key>
-				<dict>
-					<key>scanType</key>
-					<string>quick</string>
-				</dict>
-			</dict>
-			<key>tamperProtection</key>
-			<dict>
-				<key>enforcementLevel</key>
-				<string>{{defender_tamper_protection}}</string>
-			</dict>
-			<key>userInterface</key>
-			<dict>
-				<key>consumerExperience</key>
-				<string>disabled</string>
-				<key>userInitiatedFeedback</key>
-				<string>disabled</string>
-			</dict>
 		</dict>
 		<dict>
 			<key>FilterDataProviderBundleIdentifier</key>
@@ -273,7 +170,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.servicemanagement</string>
 			<key>PayloadUUID</key>
-			<string>235DD777-727C-4B9F-8527-317306303ECE</string>
+			<string>B63E0734-C4CB-4A75-9853-FB0C8B9B8C8B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Rules</key>
@@ -289,6 +186,12 @@
 					<string>LabelPrefix</string>
 					<key>RuleValue</key>
 					<string>com.microsoft.dlp</string>
+				</dict>
+				<dict>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>com.microsoft.wdav</string>
 				</dict>
 			</array>
 		</dict>
@@ -351,7 +254,7 @@
 	<key>PayloadDescription</key>
 	<string>Default CareSupport MS Defender profile which includes: PPPC, Network Extension, System Extension, Notifications</string>
 	<key>PayloadDisplayName</key>
-	<string>[CS Profile] - Microsoft Defender - Global Settings</string>
+	<string>Global -  Microsoft Defender - Required Configuration</string>
 	<key>PayloadIdentifier</key>
 	<string>dk.caresupport.defender-settings</string>
 	<key>PayloadOrganization</key>
@@ -363,7 +266,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>68C6D77D-5E6B-4290-952C-22020277E0AC</string>
+	<string>98694C98-7CCB-4C84-9C02-78392F93CAF8</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
