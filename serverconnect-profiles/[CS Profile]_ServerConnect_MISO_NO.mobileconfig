@@ -14,13 +14,38 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>companyName</key>
-			<string>Miso Film ApS</string>
+			<string>Miso Film Norge AS</string>
 			<key>helpURL</key>
 			<string>https://kb.caresupport.dk/kunder/miso-film/</string>
 			<key>logoUrl</key>
 			<string>https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8109726-9708-48ac-b7ae-68e564aa6843/df0erhv-8a3da1e8-70e8-48d0-9e95-e5d71ba5d6f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4MTA5NzI2LTk3MDgtNDhhYy1iN2FlLTY4ZTU2NGFhNjg0M1wvZGYwZXJodi04YTNkYTFlOC03MGU4LTQ4ZDAtOWU5NS1lNWQ3MWJhNWQ2ZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qxlqoDf95NK64-mciUUZTSLIL8s9hIyiHDSGNNtUYtw</string>
 			<key>servers</key>
 			<array>
+				<dict>
+					<key>address</key>
+					<string>https://fremantlemedia.sharepoint.com/sites</string>
+					<key>description</key>
+					<string>These files can be worked in collaboratively by multiple people at the same time.</string>
+					<key>method</key>
+					<string>web</string>
+					<key>mountPoint</key>
+					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–Fremantle</string>
+					<key>name</key>
+					<string>Fællesdrev - DK, NO, SE</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>This folder contains all projects and timelines sheets.</string>
+							<key>localPath</key>
+							<string>DNK MSO - Projects and Timelines - Dokumenter</string>
+							<key>name</key>
+							<string>Projects and Timelines</string>
+							<key>path</key>
+							<string>dnk-mso-projects-timelines/Shared%20Documents</string>
+						</dict>
+					</array>
+				</dict>
 				<dict>
 					<key>address</key>
 					<string>server.misofilm.dk</string>
@@ -103,7 +128,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>[CSProfile] - ServerConnect NO</string>
+	<string>ServerConnect NO</string>
 	<key>PayloadIdentifier</key>
 	<string>dk.caresupport.7F67D7C2-5FD9-4C75-86FC-270AFF866215</string>
 	<key>PayloadOrganization</key>

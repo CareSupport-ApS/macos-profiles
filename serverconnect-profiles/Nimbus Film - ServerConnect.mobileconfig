@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.caresupport.ServerConnect.B4329991-6908-4FBD-BC2E-3C063BCCC52F</string>
+			<key>PayloadType</key>
+			<string>com.caresupport.ServerConnect</string>
+			<key>PayloadUUID</key>
+			<string>91FCB468-BC5A-4B91-BC4B-388E478268E5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>companyName</key>
+			<string>Nimbus Film ApS</string>
+			<key>helpURL</key>
+			<string>https://kb.caresupport.dk/kunder/nimbus-film/</string>
+			<key>logoUrl</key>
+			<string>https://kb.caresupport.dk/media/5wvkdkju/nimbus-logo.png</string>
+			<key>servers</key>
+			<array>
+				<dict>
+					<key>address</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>ldapUrl</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>method</key>
+					<string>smb</string>
+					<key>name</key>
+					<string>PROJEKTER - FILM OG SERIER</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>UDV OG PROD</string>
+							<key>path</key>
+							<string>01. PROJEKTER - FILM OG TV/01. UDV &amp; PROD</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>ØVRIGE</string>
+							<key>path</key>
+							<string>01. PROJEKTER - FILM OG TV</string>
+						</dict>
+					</array>
+					<key>username</key>
+					<string>%Email%</string>
+				</dict>
+				<dict>
+					<key>address</key>
+					<string>https://nimbusfilm.sharepoint.com</string>
+					<key>method</key>
+					<string>web</string>
+					<key>mountPoint</key>
+					<string>~/Library/CloudStorage/OneDrive-Deltebiblioteker–NimbusFilmAps</string>
+					<key>name</key>
+					<string>DREV - DELEDOKUMENTER</string>
+					<key>description</key>
+					<string>Dokumenter til online samarbejde, tidsregistrering og retningslinjer</string>
+					<key>paths</key>
+					<array>
+						<dict>
+						    <key>localPath</key>
+							<string>Fællesdrev - Documents</string>
+							<key>name</key>
+							<string>FÆLLESDREV</string>
+							<key>path</key>
+							<string>sites/faellesdrev/Delte%20dokumenter/Forms/AllItems.aspx</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>Producer Drev - Documents</string>
+							<key>name</key>
+							<string>PRODUCERDREV</string>
+							<key>path</key>
+							<string>sites/ProducerDrev/Delte%20dokumenter/Forms/AllItems.aspx</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>Tidsregistrering - Documents</string>
+							<key>name</key>
+							<string>TIDSREGISTRERING</string>
+							<key>path</key>
+							<string>sites/tidsregistrering/Delte%20dokumenter</string>
+						</dict>
+						<dict>
+							<key>localPath</key>
+							<string>Nimbus Film - Retningslinjer - Documents</string>
+							<key>name</key>
+							<string>RETNINGSLINJER</string>
+							<key>path</key>
+							<string>sites/NimbusFilm-Retningslinjer/Delte%20dokumenter/Forms/AllItems.aspx</string>
+						</dict>
+					</array>
+				</dict>
+								<dict>
+					<key>address</key>
+					<string>https://planner.cloud.microsoft/webui/plan</string>
+					<key>method</key>
+					<string>web</string>
+					<key>name</key>
+					<string>PLANNER</string>
+					<key>description</key>
+					<string>Planner værktøj</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>NimbusLister - PA</string>
+							<key>path</key>
+							<string>c64jkXKSuEWO2pYbLzUjzJcABZ38?tid=5cd87ba1-5df6-4d2b-b591-7b57cf99cd43</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>address</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>ldapUrl</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>method</key>
+					<string>smb</string>
+					<key>name</key>
+					<string>KONCERN</string>
+					<key>description</key>
+					<string>Dokumenter vedørende Nimbus Film koncern</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>ADMIN</string>
+							<key>path</key>
+							<string>06. KONCERN/01. ADMIN</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>JURA</string>
+							<key>path</key>
+							<string>06. KONCERN/02. JURA</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>LEDERMØDE</string>
+							<key>path</key>
+							<string>06. KONCERN/03. LEDERMØDE</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>ØKONOMI</string>
+							<key>path</key>
+							<string>06. KONCERN/04. ØKONOMI</string>
+						</dict>
+					</array>
+					<key>username</key>
+					<string>%Email%</string>
+				</dict>
+
+				<dict>
+					<key>address</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>ldapUrl</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>method</key>
+					<string>smb</string>
+					<key>name</key>
+					<string>DIVERSE</string>
+					<key>description</key>
+					<string>Scannede kontrakter og virksomhedsstandarder</string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>SCANNEDE KONTRAKTER</string>
+							<key>path</key>
+							<string>04. SCANNEDE KONTRAKTER</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>STANDARDER</string>
+							<key>path</key>
+							<string>02. STANDARDER</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>HVIDBOG</string>
+							<key>path</key>
+							<string>02. STANDARDER/HVIDBOG</string>
+						</dict>
+					</array>
+					<key>username</key>
+					<string>%Email%</string>
+				</dict>
+				
+				<dict>
+					<key>address</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>ldapUrl</key>
+					<string>server.nimbusfilm.dk</string>
+					<key>method</key>
+					<string>smb</string>
+					<key>name</key>
+					<string>ARKIVER OG TECH</string>
+					<key>description</key>
+					<string>Samlet masterarkiv, it-relaterede dokumenter og FTP </string>
+					<key>paths</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>MASTERARKIV</string>
+							<key>path</key>
+							<string>MASTERARKIV</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>IT</string>
+							<key>path</key>
+							<string>07. IT</string>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>FTP</string>
+							<key>path</key>
+							<string>homes</string>
+						</dict>
+					</array>
+					<key>username</key>
+					<string>%Email%</string>
+				</dict>
+			</array>
+			<key>subtitle</key>
+			<string>Datalokationer til opbevaring og hentning af data</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Nimbus Film - ServerConnect</string>
+	<key>PayloadIdentifier</key>
+	<string>dk.caresupport.7F67D7C2-5FD9-4C75-86FC-270AFF866215</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>19895FDC-F976-4AE7-A6B9-6840497DF275</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
