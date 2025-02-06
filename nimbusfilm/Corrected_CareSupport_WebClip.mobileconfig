@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>Label</key>
+            <string>CareSupport Vidensbase</string>
+            <key>URL</key>
+            <string>https://kb.caresupport.dk/kunder/nimbus-film/</string>
+            <key>IsRemovable</key>
+            <false/>
+            <key>Precomposed</key>
+            <true/>
+            <key>PayloadUUID</key>
+            <string>9F2A1B63-1A2C-4D23-925B-4A6B1A69D9A5</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.company.webclip.caresupport</string>
+            <key>PayloadDisplayName</key>
+            <string>CareSupport Vidensbase</string>
+            <key>IgnoreManifestScope</key>
+            <true/>
+            <key>ShowInDock</key>
+            <true/>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>CareSupport Web Clip</string>
+    <key>PayloadIdentifier</key>
+    <string>com.company.profile.webclip</string>
+    <key>PayloadUUID</key>
+    <string>EC5A2E6B-BFAE-4E7F-88E6-F7A3C5D4AFA2</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+</dict>
+</plist>
