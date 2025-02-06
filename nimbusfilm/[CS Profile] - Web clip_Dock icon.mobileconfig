@@ -1934,13 +1934,13 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>KB</string>
+	<string>Nimbus Film - WebClip Dock Icon</string>
 	<key>PayloadIdentifier</key>
 	<string>Caresupport</string>
 	<key>PayloadOrganization</key>
 	<string>CareSupport ApS</string>
 	<key>PayloadScope</key>
-	<string>System</string>
+	<string>User</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
