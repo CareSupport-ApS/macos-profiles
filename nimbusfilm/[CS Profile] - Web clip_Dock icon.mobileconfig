@@ -1930,17 +1930,17 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>URL</key>
-			<string>{{customer_support_link}}</string>
+			<string>https://kb.caresupport.dk/kunder/nimbus-film/</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>KB</string>
+	<string>Nimbus Film - WebClip Dock Icon</string>
 	<key>PayloadIdentifier</key>
 	<string>Caresupport</string>
 	<key>PayloadOrganization</key>
 	<string>CareSupport ApS</string>
 	<key>PayloadScope</key>
-	<string>System</string>
+	<string>User</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
