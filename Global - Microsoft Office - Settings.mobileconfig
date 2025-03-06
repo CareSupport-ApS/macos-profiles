@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DefaultsToLocalOpenSave</key>
+			<true/>
+			<key>OfficeAutoSignIn</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft Office</string>
+			<key>PayloadIdentifier</key>
+			<string>com.microsoft.office.C227BAFC-256A-400A-B439-71B183B8FF59</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.office</string>
+			<key>PayloadUUID</key>
+			<string>C227BAFC-256A-400A-B439-71B183B8FF59</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>TermsAccepted1809</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Global - Microsoft Office - Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>dk.caresupport.D95EC118-5797-45D6-882D-68316B290905</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D95EC118-5797-45D6-882D-68316B290905</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
