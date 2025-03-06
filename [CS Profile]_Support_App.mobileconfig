@@ -35,11 +35,13 @@
                                 <key>FirstRowTypeRight</key>
                                 <string>URL</string>
                                 <key>FooterText</key>
-                                <string>Provided by your **CareSupport** with love❤️</string>
+                                <string>Provided by **CareSupport** with love❤️</string>
                                 <key>HideFirstRow</key>
                                 <false/>
                                 <key>HideSecondRow</key>
                                 <true/>
+                                <key>StatusBarIcon</key>
+                                <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
                                 <key>Logo</key>
                                 <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
                                 <key>NotificationIcon</key>
@@ -53,9 +55,9 @@
                                 <key>StorageLimit</key>
                                 <integer>90</integer>
                                 <key>Title</key>
-                                <string>{{customer_name}}</string>
+                                <string>CareSupport</string>
                                 <key>UptimeDaysLimit</key>
-                                <integer>21</integer>
+                                <integer>30</integer>
                             </dict>
                         </dict>
                     </array>
