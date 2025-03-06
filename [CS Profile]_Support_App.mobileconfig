@@ -14,26 +14,8 @@
                         <dict>
                             <key>mcx_preference_settings</key>
                             <dict>
-                                <key>FirstRowLinkLeft</key>
-                                <string>https://nimbusfilm.sharepoint.com/sites/NimbusLister-PA</string>
-                                <key>FirstRowLinkRight</key>
-                                <string>https://nimbusfilm.sharepoint.com/sites/NimbusLister-Producer</string>
-                                <key>FirstRowSubtitleLeft</key>
-                                <string>Open SharePoint</string>
-                                <key>FirstRowSubtitleRight</key>
-                                <string>Open SharePoint</string>
-                                <key>FirstRowSymbolLeft</key>
-                                <string>cursorarrow.and.square.on.square.dashed</string>
-                                <key>FirstRowSymbolRight</key>
-                                <string>cursorarrow.and.square.on.square.dashed</string>
-                                <key>FirstRowTitleLeft</key>
-                                <string>SharePoint Link</string>
-                                <key>FirstRowTitleRight</key>
-                                <string>SharePoint Link 2</string>
-                                <key>FirstRowTypeLeft</key>
-                                <string>URL</string>
-                                <key>FirstRowTypeRight</key>
-                                <string>URL</string>
+                                <key>FirstRowTitleMiddle</key>
+                                <string>Self Service</string>
                                 <key>FooterText</key>
                                 <string>Provided by **CareSupport** with love❤️</string>
                                 <key>HideFirstRow</key>
@@ -55,7 +37,7 @@
                                 <key>StorageLimit</key>
                                 <integer>90</integer>
                                 <key>Title</key>
-                                <string>CareSupport</string>
+                                <string>%CompanyName%</string>
                                 <key>UptimeDaysLimit</key>
                                 <integer>30</integer>
                             </dict>
