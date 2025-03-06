@@ -14,8 +14,12 @@
                         <dict>
                             <key>mcx_preference_settings</key>
                             <dict>
+                                <key>FirstRowTitleLeft</key>
+                                <string></string>
                                 <key>FirstRowTitleMiddle</key>
                                 <string>Self Service</string>
+                                <key>FirstRowLinkMiddle</key>
+                                <string>com.mosyle.mdm.selfservice</string>
                                 <key>FooterText</key>
                                 <string>Provided by **CareSupport** with love❤️</string>
                                 <key>HideFirstRow</key>
