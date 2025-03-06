@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutomaticallyDownloadExternalContent</key>
+			<integer>2</integer>
+			<key>CalendarFirstDayOfWeek</key>
+			<integer>2</integer>
+			<key>FirstRunExperienceCompletedO15</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft Outlook</string>
+			<key>PayloadIdentifier</key>
+			<string>com.microsoft.Outlook.7AE96E32-8EDA-4681-9ADB-2370C3194224</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.Outlook</string>
+			<key>PayloadUUID</key>
+			<string>7AE96E32-8EDA-4681-9ADB-2370C3194224</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>TrustO365AutodiscoverRedirect</key>
+			<true/>
+			<key>Weather_update_automatically</key>
+			<true/>
+			<key>googlePromoTriggeredPref</key>
+			<true/>
+			<key>kSubUIAppCompletedFirstRunSetup1507</key>
+			<true/>
+			<key>o365GroupsOobePromoTriggeredPref</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Global - Microsoft Outlook - Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>dk.caresupport.103755A6-690D-4AF4-A678-3B6E8108FDC1</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>103755A6-690D-4AF4-A678-3B6E8108FDC1</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -5,36 +5,30 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>AllowSigned</key>
-			<true/>
-			<key>AllowSignedApp</key>
-			<true/>
-			<key>EnableFirewall</key>
-			<true/>
+			<key>DisableFDEAutoLogin</key>
+			<false/>
 			<key>PayloadDisplayName</key>
-			<string>Firewall #1</string>
+			<string>Login Window #1</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.security.firewall.F78168CE-1386-49DA-A683-A9E19DEE6DAB</string>
+			<string>com.apple.loginwindow.B9376C6F-423C-49F0-9D16-0CADEDF13563</string>
 			<key>PayloadType</key>
-			<string>com.apple.security.firewall</string>
+			<string>com.apple.loginwindow</string>
 			<key>PayloadUUID</key>
-			<string>A8AF127F-6A24-40EF-9FFB-5662C99D5602</string>
+			<string>B9376C6F-423C-49F0-9D16-0CADEDF13563</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>Purpose is to setup firewall </string>
 	<key>PayloadDisplayName</key>
-	<string>[CS Profile] - Firewall</string>
+	<string>Global - Login Window - Disable FDE Autologin</string>
 	<key>PayloadIdentifier</key>
-	<string>Caresupport</string>
+	<string>dk.caresupport.EBE0447D-31E0-417C-A3A7-C787F3D25D98</string>
 	<key>PayloadOrganization</key>
-	<string>CareSupport</string>
+	<string>CareSupport ApS</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>5561AE64-8152-4C4F-BB41-4171E77C7577</string>
+	<string>EBE0447D-31E0-417C-A3A7-C787F3D25D98</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

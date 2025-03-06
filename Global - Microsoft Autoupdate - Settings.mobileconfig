@@ -111,6 +111,8 @@
 			<string>AutomaticDownload</string>
 			<key>IgnoreUIOpenAfterInstall</key>
 			<true/>
+			<key>OptionalUpdatesDeferralsDays</key>
+			<integer>28</integer>
 			<key>PayloadDisplayName</key>
 			<string>Microsoft AutoUpdate</string>
 			<key>PayloadIdentifier</key>
@@ -132,7 +134,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>[CS Profile] MS Autoupdate</string>
+	<string>Global - Microsoft Autoupdate - Settings</string>
 	<key>PayloadIdentifier</key>
 	<string>com.caresupport.msautoupdate.206002FD-7151-4F50-9973-6D53ADFFC703</string>
 	<key>PayloadOrganization</key>
