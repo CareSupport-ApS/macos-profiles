@@ -35,15 +35,15 @@
                                 <key>FirstRowTypeRight</key>
                                 <string>URL</string>
                                 <key>FooterText</key>
-                                <string>Provided by your **IT department** with love❤️</string>
+                                <string>Provided by your **CareSupport** with love❤️</string>
                                 <key>HideFirstRow</key>
                                 <false/>
                                 <key>HideSecondRow</key>
                                 <true/>
                                 <key>Logo</key>
-                                <string>https://caresupport.dk/wp-content/uploads/2022/06/Screenshot-2022-06-09-at-11.50.42-300x226.png</string>
+                                <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
                                 <key>NotificationIcon</key>
-                                <string>https://caresupport.dk/wp-content/uploads/2022/06/Screenshot-2022-06-09-at-11.50.42-300x226.png</string>
+                                <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
                                 <key>OnAppearAction</key>
                                 <string>/usr/local/bin/jamf_last_check-in_time.zsh</string>
                                 <key>ShowWelcomeScreen</key>
