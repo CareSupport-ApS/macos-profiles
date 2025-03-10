@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadContent</key>
+            <dict>
+                <key>nl.root3.support</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>FirstRowTitleLeft</key>
+                                <string>Self Service</string>
+                                <key>FirstRowTypeLeft</key>
+                                <string>App</string>
+                                <key>FirstRowLinkLeft</key>
+                                <string>com.mosyle.macos.business</string>
+                                <key>FirstRowSymbolLeft</key>
+                                <string>bag.badge.plus</string>
+                                
+                                <key>FirstRowTitleMiddle</key>
+                                <string>PA Planner</string>
+                                <key>FirstRowTypeMiddle</key>
+                                <string>URL</string>
+                                <key>FirstRowLinkMiddle</key>
+                                <string></string>
+                                <key>FirstRowSymbolMiddle</key>
+                                <string>calendar.badge.plus</string>
+                                
+                                <key>FirstRowTitleRight</key>
+                                <string>Outlook mail search</string>
+                                <key>FirstRowTypeRight</key>
+                                <string>URL</string>
+                                <key>FirstRowLinkRight</key>
+                                <string>https://outlook.office.com/mail/</string>
+                                <key>FirstRowSymbolRight</key>
+                                <string>mail</string>
+                                
+                                <key>FooterText</key>
+                                <string>Provided by **CareSupport** with love❤️</string>
+                                <key>HideFirstRow</key>
+                                <false/>
+                                <key>HideSecondRow</key>
+                                <true/>
+                                <key>StatusBarIcon</key>
+                                <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
+                                <key>Logo</key>
+                                <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
+                                <key>NotificationIcon</key>
+                                <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
+                                <key>OnAppearAction</key>
+                                <string>/usr/local/bin/jamf_last_check-in_time.zsh</string>
+                                <key>ShowWelcomeScreen</key>
+                                <true/>
+                                <key>StatusBarIconNotifierEnabled</key>
+                                <true/>
+                                <key>StorageLimit</key>
+                                <integer>90</integer>
+                                <key>Title</key>
+                                <string>%CompanyName%</string>
+                                <key>UptimeDaysLimit</key>
+                                <integer>30</integer>
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+            <key>PayloadDescription</key>
+            <string></string>
+            <key>PayloadDisplayName</key>
+            <string>Custom</string>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.ManagedClient.preferences.E07B484A-FC4A-450B-A0E9-3BC0B737974B</string>
+            <key>PayloadOrganization</key>
+            <string>Root3</string>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadUUID</key>
+            <string>E07B484A-FC4A-450B-A0E9-3BC0B737974B</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string></string>
+    <key>PayloadDisplayName</key>
+    <string>Support App Configuration</string>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadIdentifier</key>
+    <string>BDA1AE71-4F70-4D93-9924-F8E77E8F0F10</string>
+    <key>PayloadOrganization</key>
+    <string>Root3</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>164671D3-3656-41FF-A387-E3229001BB9B</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
+
