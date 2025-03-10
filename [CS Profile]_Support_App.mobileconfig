@@ -15,17 +15,13 @@
                             <key>mcx_preference_settings</key>
                             <dict>
                                 <key>FirstRowTitleLeft</key>
-                                <string></string>
-                                <key>FirstRowTypeLeft</key>
-                                <string></string>
-                                <key>FirstRowLinkLeft</key>
-                                <string></string>
-                                <key>FirstRowSymbolLeft</key>
-                                <string></string>
-                                <key>FirstRowTitleMiddle</key>
                                 <string>Self Service</string>
-                                <key>FirstRowLinkMiddle</key>
+                                <key>FirstRowTypeLeft</key>
+                                <string>App</string>
+                                <key>FirstRowLinkLeft</key>
                                 <string>com.mosyle.macos.business</string>
+                                <key>FirstRowSymbolLeft</key>
+                                <string>bag.badge.plus</string>
                                 <key>FooterText</key>
                                 <string>Provided by **CareSupport** with love❤️</string>
                                 <key>HideFirstRow</key>
