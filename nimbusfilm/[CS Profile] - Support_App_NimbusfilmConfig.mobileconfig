@@ -38,12 +38,29 @@
                                 <string>https://outlook.office.com/mail/</string>
                                 <key>FirstRowSymbolRight</key>
                                 <string>mail</string>
+                                
                                 <key>SecondRowTitleLeft</key>
                                 <string>Admin Privilegier</string>
                                 <key>SecondRowTypeLeft</key>
                                 <string>URL</string>
                                 <string>https://wiki.caresupport.dk/books/mosyle-mdm/page/guide-til-admin-on-demand</string>
                                 <key>SecondRowSymbolLeft</key>
+                                <string>person.badge.key</string>
+                                
+                                <key>SecondRowTitleMiddle</key>
+                                <string>Admin Privilegier</string>
+                                <key>SecondRowTypeMiddle</key>
+                                <string>URL</string>
+                                <string>https://wiki.caresupport.dk/books/mosyle-mdm/page/guide-til-admin-on-demand</string>
+                                <key>SecondRowSymbolMiddle</key>
+                                <string>person.badge.key</string>
+                                
+                                <key>SecondRowTitleRight</key>
+                                <string>Admin Privilegier</string>
+                                <key>SecondRowTypeRight</key>
+                                <string>URL</string>
+                                <string>https://wiki.caresupport.dk/books/mosyle-mdm/page/guide-til-admin-on-demand</string>
+                                <key>SecondRowSymbolRight</key>
                                 <string>person.badge.key</string>
                                 
                                 <key>FooterText</key>
