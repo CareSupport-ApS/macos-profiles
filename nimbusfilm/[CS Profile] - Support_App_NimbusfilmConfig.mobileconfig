@@ -43,10 +43,11 @@
                                 <string>Admin Privilegier</string>
                                 <key>SecondRowTypeLeft</key>
                                 <string>URL</string>
-                                <key>SecondRowLinkMiddle</key>
+                                <key>SecondRowLinkLeft</key>
                                 <string>https://wiki.caresupport.dk/books/mosyle-mdm/page/guide-til-admin-on-demand</string>
                                 <key>SecondRowSymbolLeft</key>
                                 <string>person.badge.key</string>
+
                                 
                                 <key>FooterText</key>
                                 <string>Provided by **CareSupport** with love❤️</string>
