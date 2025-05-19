@@ -38,13 +38,21 @@
                                 <string>https://outlook.office.com/mail/</string>
                                 <key>FirstRowSymbolRight</key>
                                 <string>mail</string>
+
+                                <key>SecondRowTitleLeft</key>
+                                <string>Admin Privilegier</string>
+                                <key>SecondRowTypeLeft</key>
+                                <string>URL</string>
+                                <string>https://wiki.caresupport.dk/books/mosyle-mdm/page/guide-til-admin-on-demand</string>
+                                <key>SecondRowSymbolLeft</key>
+                                <string>person.badge.key</string>
                                 
                                 <key>FooterText</key>
                                 <string>Provided by **CareSupport** with love❤️</string>
                                 <key>HideFirstRow</key>
                                 <false/>
                                 <key>HideSecondRow</key>
-                                <true/>
+                                <false/>
                                 <key>StatusBarIcon</key>
                                 <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
                                 <key>Logo</key>
