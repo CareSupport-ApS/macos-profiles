@@ -48,6 +48,15 @@
                                 <key>SecondRowSymbolLeft</key>
                                 <string>person.badge.key</string>
 
+                                <key>SecondRowTitleRight</key>
+                                <string>Nimbus Hjemmeside</string>
+                                <key>SecondRowTypeRight</key>
+                                <string>URL</string>
+                                <key>SecondRowLinkRight</key>
+                                <string>https://nimbusfilm.dk/</string>
+                                <key>SecondRowSymbolRight</key>
+                                <string>globe</string>
+
                                 
                                 <key>FooterText</key>
                                 <string>Provided by **CareSupport** with love❤️</string>
