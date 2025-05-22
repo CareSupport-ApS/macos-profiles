@@ -1,140 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <key>PayloadContent</key>
-    <array>
-        <dict>
-            <key>PayloadContent</key>
-            <dict>
-                <key>nl.root3.support</key>
-                <dict>
-                    <key>Forced</key>
-                    <array>
-                        <dict>
-                            <key>mcx_preference_settings</key>
-                            <dict>
-                                <key>FirstRowTitleLeft</key>
-                                <string>Self Service</string>
-                                <key>FirstRowTypeLeft</key>
-                                <string>App</string>
-                                <key>FirstRowLinkLeft</key>
-                                <string>com.mosyle.macos.business</string>
-                                <key>FirstRowSymbolLeft</key>
-                                <string>bag.badge.plus</string>
-
-                                <key>FirstRowTitleMiddle</key>
-                                <string>Opret sag</string>
-                                <key>FirstRowTypeMiddle</key>
-                                <string>URL</string>
-                                <key>FirstRowLinkMiddle</key>
-                                <string>https://forms.caresupport.dk/forms/support-request-form-novhq5?2633d510-c634-45a1-a566-3fd0c690e322=it@nimbusfilm.dk&amp;7a5ddf5f-83f1-44a4-9eb8-5f08b2b1b768=DK%2B45</string>
-                                <key>FirstRowSymbolMiddle</key>
-                                <string>square.and.pencil</string>
-
-                                <key>FirstRowTitleRight</key>
-                                <string>Vidensbase</string>
-                                <key>FirstRowTypeRight</key>
-                                <string>URL</string>
-                                <key>FirstRowLinkRight</key>
-                                <string>https://wiki.caresupport.dk/</string>
-                                <key>FirstRowSymbolRight</key>
-                                <string>questionmark.book</string>
-
-                                <key>SecondRowTitleLeft</key>
-                                <string>Admin Privilegier</string>
-                                <key>SecondRowTypeLeft</key>
-                                <string>URL</string>
-                                <key>SecondRowLinkLeft</key>
-                                <string>https://wiki.caresupport.dk/books/mosyle-mdm/page/guide-til-admin-on-demand</string>
-                                <key>SecondRowSymbolLeft</key>
-                                <string>person.badge.key</string>
-
-                                <key>SecondRowTitleMiddle</key>
-                                <string>PA Planner</string>
-                                <key>SecondRowTypeMiddle</key>
-                                <string>URL</string>
-                                <key>SecondRowLinkMiddle</key>
-                                <string>https://planner.cloud.microsoft/webui/plan/c64jkXKSuEWO2pYbLzUjzJcABZ38?tid=5cd87ba1-5df6-4d2b-b591-7b57cf99cd43</string>
-                                <key>SecondRowSymbolMiddle</key>
-                                <string>calendar.badge.plus</string>
-
-                                <key>SecondRowTitleRight</key>
-                                <string>Outlook mail search</string>
-                                <key>SecondRowTypeRight</key>
-                                <string>URL</string>
-                                <key>SecondRowLinkRight</key>
-                                <string>https://outlook.office.com/mail/</string>
-                                <key>SecondRowSymbolRight</key>
-                                <string>mail</string>
-                                
-                                <key>FooterText</key>
-                                <string>Provided by **CareSupport** with love❤️</string>
-                                <key>HideFirstRow</key>
-                                <false/>
-                                <key>HideSecondRow</key>
-                                <false/>
-                                <key>StatusBarIcon</key>
-                                <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
-                                <key>Logo</key>
-                                <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
-                                <key>NotificationIcon</key>
-                                <string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
-                                <key>OnAppearAction</key>
-                                <string>/usr/local/bin/jamf_last_check-in_time.zsh</string>
-                                <key>ShowWelcomeScreen</key>
-                                <true/>
-                                <key>StatusBarIconNotifierEnabled</key>
-                                <true/>
-                                <key>StorageLimit</key>
-                                <integer>90</integer>
-                                <key>Title</key>
-                                <string>%CompanyName%</string>
-                                <key>UptimeDaysLimit</key>
-                                <integer>30</integer>
-                            </dict>
-                        </dict>
-                    </array>
-                </dict>
-            </dict>
-            <key>PayloadDescription</key>
-            <string></string>
-            <key>PayloadDisplayName</key>
-            <string>Custom</string>
-            <key>PayloadEnabled</key>
-            <true/>
-            <key>PayloadIdentifier</key>
-            <string>com.apple.ManagedClient.preferences.E07B484A-FC4A-450B-A0E9-3BC0B737974B</string>
-            <key>PayloadOrganization</key>
-            <string>Root3</string>
-            <key>PayloadType</key>
-            <string>com.apple.ManagedClient.preferences</string>
-            <key>PayloadUUID</key>
-            <string>E07B484A-FC4A-450B-A0E9-3BC0B737974B</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-        </dict>
-    </array>
-    <key>PayloadDescription</key>
-    <string></string>
-    <key>PayloadDisplayName</key>
-    <string>Support App Configuration</string>
-    <key>PayloadEnabled</key>
-    <true/>
-    <key>PayloadIdentifier</key>
-    <string>BDA1AE71-4F70-4D93-9924-F8E77E8F0F10</string>
-    <key>PayloadOrganization</key>
-    <string>Root3</string>
-    <key>PayloadRemovalDisallowed</key>
-    <true/>
-    <key>PayloadScope</key>
-    <string>System</string>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadUUID</key>
-    <string>164671D3-3656-41FF-A387-E3229001BB9B</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-</dict>
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>HideFirstRow</key>
+				<false />
+				<key>HideFirstRowInfoItems</key>
+				<false />
+				<key>HideSecondRow</key>
+				<false />
+				<key>PayloadDisplayName</key>
+				<string>SupportApp by Root3</string>
+				<key>PayloadIdentifier</key>
+				<string>nl.root3.support.fdf91f63-a025-49c8-9019-ec88f0ac4752</string>
+				<key>PayloadType</key>
+				<string>nl.root3.support</string>
+				<key>PayloadUUID</key>
+				<string>fdf91f63-a025-49c8-9019-ec88f0ac4752</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>SecondRowLinkLeft</key>
+				<string>https://wiki.caresupport.dk/books/mosyle-mdm/page/guide-til-admin-on-demand</string>
+				<key>SecondRowLinkMiddle</key>
+				<string>https://planner.cloud.microsoft/webui/plan/c64jkXKSuEWO2pYbLzUjzJcABZ38?tid=5cd87ba1-5df6-4d2b-b591-7b57cf99cd43</string>
+				<key>SecondRowLinkRight</key>
+				<string>https://outlook.office.com/mail/</string>
+				<key>SecondRowSymbolLeft</key>
+				<string>person.badge.key</string>
+				<key>SecondRowSymbolMiddle</key>
+				<string>list.bullet.rectangle</string>
+				<key>SecondRowSymbolRight</key>
+				<string>mail</string>
+				<key>SecondRowTitleLeft</key>
+				<string>Admin Privilegier</string>
+				<key>SecondRowTitleMiddle</key>
+				<string>PA Planner</string>
+				<key>SecondRowTitleRight</key>
+				<string>Outlook Mail Search</string>
+				<key>SecondRowTypeLeft</key>
+				<string>URL</string>
+				<key>SecondRowTypeMiddle</key>
+				<string>URL</string>
+				<key>SecondRowTypeRight</key>
+				<string>URL</string>
+			</dict>
+		</array>
+		<key>PayloadDisplayName</key>
+		<string>CareSupport - Support App (Test)</string>
+		<key>PayloadEnabled</key>
+		<true />
+		<key>PayloadIdentifier</key>
+		<string>com.example.customer.extension</string>
+		<key>PayloadOrganization</key>
+		<string>Root3</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false />
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>6e190298-22c3-4674-a10e-cc57128377a0</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
 </plist>
-

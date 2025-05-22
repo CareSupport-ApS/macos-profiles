@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>FirstRowLinkLeft</key>
+				<string>com.mosyle.macos.business</string>
+				<key>FirstRowLinkMiddle</key>
+				<string>https://forms.caresupport.dk/forms/support-request-form-novhq5?2633d510-c634-45a1-a566-3fd0c690e322=support@caresupport.dk&amp;amp;7a5ddf5f-83f1-44a4-9eb8-5f08b2b1b768=DK%2B45</string>
+				<key>FirstRowLinkRight</key>
+				<string>https://wiki.caresupport.dk/</string>
+				<key>FirstRowSymbolLeft</key>
+				<string>bag.badge.plus</string>
+				<key>FirstRowSymbolMiddle</key>
+				<string>square.and.pencil</string>
+				<key>FirstRowSymbolRight</key>
+				<string>book</string>
+				<key>FirstRowTitleLeft</key>
+				<string>Self Service</string>
+				<key>FirstRowTitleMiddle</key>
+				<string>Opret sag</string>
+				<key>FirstRowTitleRight</key>
+				<string>Vidensbase</string>
+				<key>FirstRowTypeLeft</key>
+				<string>App</string>
+				<key>FirstRowTypeMiddle</key>
+				<string>URL</string>
+				<key>FirstRowTypeRight</key>
+				<string>URL</string>
+				<key>FooterText</key>
+				<string>Provided by **CareSupport** with love❤️</string>
+				<key>HideSecondRow</key>
+				<true />
+				<key>HideSecondRowInfoItems</key>
+				<false />
+				<key>InfoItemFour</key>
+				<string>Uptime</string>
+				<key>InfoItemOne</key>
+				<string>ComputerName</string>
+				<key>InfoItemThree</key>
+				<string>Storage</string>
+				<key>InfoItemTwo</key>
+				<string>MacOSVersion</string>
+				<key>Logo</key>
+				<string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
+				<key>LogoDarkMode</key>
+				<string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
+				<key>NotificationIcon</key>
+				<string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
+				<key>PayloadDisplayName</key>
+				<string>SupportApp by Root3</string>
+				<key>PayloadIdentifier</key>
+				<string>nl.root3.support.d44e8298-60b1-4196-9102-f0f82066a5c6</string>
+				<key>PayloadType</key>
+				<string>nl.root3.support</string>
+				<key>PayloadUUID</key>
+				<string>d44e8298-60b1-4196-9102-f0f82066a5c6</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>ShowWelcomeScreen</key>
+				<true />
+				<key>StatusBarIcon</key>
+				<string>https://caresupport.dk/wp-content/uploads/2025/02/Logo-roed.png</string>
+				<key>StatusBarIconNotifierEnabled</key>
+				<true />
+				<key>Title</key>
+				<string>%CompanyName%</string>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string />
+		<key>PayloadDisplayName</key>
+		<string>Global - Support App - Base Config</string>
+		<key>PayloadIdentifier</key>
+		<string>BDA1AE71-4F70-4D93-9924-F8E77E8F0F10</string>
+		<key>PayloadOrganization</key>
+		<string>Root3</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true />
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>164671D3-3656-41FF-A387-E3229001BB9B</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
