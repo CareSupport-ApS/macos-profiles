@@ -28,7 +28,7 @@
                                 <key>FirstRowTypeMiddle</key>
                                 <string>URL</string>
                                 <key>FirstRowLinkMiddle</key>
-                                <string>https://forms.caresupport.dk/forms/support-request-form-novhq5?2633d510-c634-45a1-a566-3fd0c690e322=support@caresupport.dk&7a5ddf5f-83f1-44a4-9eb8-5f08b2b1b768=DK%2B45</string>
+                                <string>https://forms.caresupport.dk/forms/support-request-form-novhq5?2633d510-c634-45a1-a566-3fd0c690e322=support@caresupport.dk&amp;7a5ddf5f-83f1-44a4-9eb8-5f08b2b1b768=DK%2B45</string>
                                 <key>FirstRowSymbolMiddle</key>
                                 <string>square.and.pencil</string>
                                 
