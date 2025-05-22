@@ -22,6 +22,25 @@
                                 <string>com.mosyle.macos.business</string>
                                 <key>FirstRowSymbolLeft</key>
                                 <string>bag.badge.plus</string>
+
+                                <key>FirstRowTitleMiddle</key>
+                                <string>Opret sag hos IT-support</string>
+                                <key>FirstRowTypeMiddle</key>
+                                <string>URL</string>
+                                <key>FirstRowLinkMiddle</key>
+                                <string>https://forms.caresupport.dk/forms/support-request-form-novhq5?2633d510-c634-45a1-a566-3fd0c690e322=support@caresupport.dk&7a5ddf5f-83f1-44a4-9eb8-5f08b2b1b768=DK%2B45</string>
+                                <key>FirstRowSymbolMiddle</key>
+                                <string>square.and.pencil</string>
+                                
+                                <key>FirstRowTitleRight</key>
+                                <string>Vidensbase</string>
+                                <key>FirstRowTypeRight</key>
+                                <string>URL</string>
+                                <key>FirstRowLinkRight</key>
+                                <string>https://wiki.caresupport.dk/</string>
+                                <key>FirstRowSymbolRight</key>
+                                <string>questionmark.book</string>
+
                                 <key>FooterText</key>
                                 <string>Provided by **CareSupport** with love❤️</string>
                                 <key>HideFirstRow</key>

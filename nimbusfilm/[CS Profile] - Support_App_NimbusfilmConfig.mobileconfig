@@ -22,6 +22,7 @@
                                 <string>com.mosyle.macos.business</string>
                                 <key>FirstRowSymbolLeft</key>
                                 <string>bag.badge.plus</string>
+
                                 <key>FirstRowTitleMiddle</key>
                                 <string>PA Planner</string>
                                 <key>FirstRowTypeMiddle</key>
@@ -30,6 +31,7 @@
                                 <string>https://planner.cloud.microsoft/webui/plan/c64jkXKSuEWO2pYbLzUjzJcABZ38?tid=5cd87ba1-5df6-4d2b-b591-7b57cf99cd43</string>
                                 <key>FirstRowSymbolMiddle</key>
                                 <string>calendar.badge.plus</string>
+                                
                                 <key>FirstRowTitleRight</key>
                                 <string>Outlook mail search</string>
                                 <key>FirstRowTypeRight</key>
