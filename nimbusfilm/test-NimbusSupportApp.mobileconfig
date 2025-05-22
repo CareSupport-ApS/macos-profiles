@@ -42,6 +42,9 @@
                 <key>SecondRowSymbolRight</key>
                 <string>mail</string>
 
+                <key>HideSecondRow</key>
+                <false/>
+
               </dict>
             </dict>
           </array>
