@@ -52,20 +52,20 @@
 
                                 <key>SecondRowTitleMiddle</key>
                                 <string>PA Planner</string>
-                                <key>FirstRowTypeMiddle</key>
+                                <key>SecondRowTypeMiddle</key>
                                 <string>URL</string>
-                                <key>FirstRowLinkMiddle</key>
+                                <key>SecondRowLinkMiddle</key>
                                 <string>https://planner.cloud.microsoft/webui/plan/c64jkXKSuEWO2pYbLzUjzJcABZ38?tid=5cd87ba1-5df6-4d2b-b591-7b57cf99cd43</string>
-                                <key>FirstRowSymbolMiddle</key>
+                                <key>SecondRowSymbolMiddle</key>
                                 <string>calendar.badge.plus</string>
 
                                 <key>SecondRowTitleRight</key>
                                 <string>Outlook mail search</string>
-                                <key>FirstRowTypeRight</key>
+                                <key>SecondRowTypeRight</key>
                                 <string>URL</string>
-                                <key>FirstRowLinkRight</key>
+                                <key>SecondRowLinkRight</key>
                                 <string>https://outlook.office.com/mail/</string>
-                                <key>FirstRowSymbolRight</key>
+                                <key>SecondRowSymbolRight</key>
                                 <string>mail</string>
                                 
                                 <key>FooterText</key>

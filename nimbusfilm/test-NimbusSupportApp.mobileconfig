@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadContent</key>
+      <dict>
+        <key>nl.root3.support</key>
+        <dict>
+          <key>Forced</key>
+          <array>
+            <dict>
+              <key>mcx_preference_settings</key>
+              <dict>
+                
+                <key>SecondRowTitleLeft</key>
+                <string>Admin Privilegier</string>
+                <key>SecondRowTypeLeft</key>
+                <string>URL</string>
+                <key>SecondRowLinkLeft</key>
+                <string>https://wiki.caresupport.dk/books/mosyle-mdm/page/guide-til-admin-on-demand</string>
+                <key>SecondRowSymbolLeft</key>
+                <string>person.badge.key</string>
+
+                <key>SecondRowTitleMiddle</key>
+                <string>PA Planner</string>
+                <key>SecondRowTypeMiddle</key>
+                <string>URL</string>
+                <key>SecondRowLinkMiddle</key>
+                <string>https://planner.cloud.microsoft/webui/plan/c64jkXKSuEWO2pYbLzUjzJcABZ38?tid=5cd87ba1-5df6-4d2b-b591-7b57cf99cd43</string>
+                <key>FirstRowSymbolMiddle</key>
+                <string>calendar.badge.plus</string>
+
+                <key>SecondRowTitleRight</key>
+                <string>Outlook mail search</string>
+                <key>SecondRowTypeRight</key>
+                <string>URL</string>
+                <key>SecondRowLinkRight</key>
+                <string>https://outlook.office.com/mail/</string>
+                <key>SecondRowSymbolRight</key>
+                <string>mail</string>
+
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>PayloadDescription</key>
+      <string></string>
+      <key>PayloadDisplayName</key>
+      <string>Custom</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadIdentifier</key>
+      <string>com.apple.ManagedClient.preferences.2d0b2180-4723-4189-abca-e64bf0670817</string>  <!-- unique -->
+      <key>PayloadOrganization</key>
+      <string>Root3</string>
+      <key>PayloadType</key>
+      <string>com.apple.ManagedClient.preferences</string>
+      <key>PayloadUUID</key>
+      <string>ffe93c8b-6a49-4672-b2a5-357e0a29d963</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>Extension config for customer</string>
+  <key>PayloadDisplayName</key>
+  <string>Customer Extension</string>
+  <key>PayloadEnabled</key>
+  <true/>
+  <key>PayloadIdentifier</key>
+  <string>com.example.customer.extension</string>
+  <key>PayloadOrganization</key>
+  <string>Root3</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>6e190298-22c3-4674-a10e-cc57128377a0</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
