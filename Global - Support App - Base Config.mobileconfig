@@ -5,32 +5,10 @@
 		<key>PayloadContent</key>
 		<array>
 			<dict>
-				<key>FirstRowLinkLeft</key>
-				<string>com.mosyle.macos.business</string>
-				<key>FirstRowLinkMiddle</key>
-				<string>https://forms.caresupport.dk/forms/support-request-form-novhq5?2633d510-c634-45a1-a566-3fd0c690e322=support@caresupport.dk&amp;amp;7a5ddf5f-83f1-44a4-9eb8-5f08b2b1b768=DK%2B45</string>
-				<key>FirstRowLinkRight</key>
-				<string>https://wiki.caresupport.dk/</string>
-				<key>FirstRowSymbolLeft</key>
-				<string>bag.badge.plus</string>
-				<key>FirstRowSymbolMiddle</key>
-				<string>square.and.pencil</string>
-				<key>FirstRowSymbolRight</key>
-				<string>book</string>
-				<key>FirstRowTitleLeft</key>
-				<string>Self Service</string>
-				<key>FirstRowTitleMiddle</key>
-				<string>Opret sag</string>
-				<key>FirstRowTitleRight</key>
-				<string>Vidensbase</string>
-				<key>FirstRowTypeLeft</key>
-				<string>App</string>
-				<key>FirstRowTypeMiddle</key>
-				<string>URL</string>
-				<key>FirstRowTypeRight</key>
-				<string>URL</string>
 				<key>FooterText</key>
 				<string>Provided by **CareSupport** with love❤️</string>
+				<key>HideFirstRow</key>
+				<true />
 				<key>HideSecondRow</key>
 				<true />
 				<key>HideSecondRowInfoItems</key>
