@@ -72,7 +72,7 @@
 			</dict>
 		</array>
 		<key>PayloadDisplayName</key>
-		<string>NimbusFilm - Support App </string>
+		<string>[CS Profile] - NimbusFilm - Support App </string>
 		<key>PayloadEnabled</key>
 		<true />
 		<key>PayloadIdentifier</key>
