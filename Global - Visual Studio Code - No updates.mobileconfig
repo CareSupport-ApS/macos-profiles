@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Visual Studio Code</string>
+			<key>PayloadIdentifier</key>
+			<string>com.microsoft.VSCode.509ACBBA-FD5C-42F4-96B2-017003A0B935</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.VSCode</string>
+			<key>PayloadUUID</key>
+			<string>509ACBBA-FD5C-42F4-96B2-017003A0B935</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>UpdateMode</key>
+			<string>manual</string>
+			<key>CompanyName</key>
+			<string>%CompanyName%</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Global - Visual Studio Code - No updates</string>
+	<key>PayloadIdentifier</key>
+	<string>dk.caresupport.B4E83944-7B7B-41E8-91B4-B7667D78789E</string>
+	<key>PayloadOrganization</key>
+	<string>CareSupport ApS</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B4E83944-7B7B-41E8-91B4-B7667D78789E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -56,43 +56,12 @@
 			<key>networkProtection</key>
 			<dict>
 				<key>enforcementLevel</key>
-				<string>disabled</string>
+				<string>block</string>
 			</dict>
 			<key>scheduledScan</key>
 			<dict>
 				<key>checkForDefinitionsUpdate</key>
 				<true/>
-				<key>dailyConfiguration</key>
-				<dict>
-					<key>features</key>
-					<dict>
-						<key>scheduledScan</key>
-						<string>enabled</string>
-					</dict>
-					<key>scheduledScan</key>
-					<dict>
-						<key>dailyConfiguration</key>
-						<dict>
-							<key>interval</key>
-							<string>1</string>
-							<key>timeOfDay</key>
-							<integer>885</integer>
-						</dict>
-						<key>ignoreExclusions</key>
-						<true/>
-						<key>lowPriorityScheduledScan</key>
-						<true/>
-						<key>weeklyConfiguration</key>
-						<dict>
-							<key>dayOfWeek</key>
-							<integer>4</integer>
-							<key>scanType</key>
-							<string>full</string>
-							<key>timeOfDay</key>
-							<integer>880</integer>
-						</dict>
-					</dict>
-				</dict>
 				<key>runScanWhenIdle</key>
 				<true/>
 				<key>weeklyConfiguration</key>
